@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid Background="Azure">
+
+            <Button Height="50" Width="100" x:Name="Connet_Button" Click="ConnectBtn_OnClick">
+                <TextBlock Text="접속" FontSize="20"></TextBlock>
+            </Button>
+            <TextBox Height="20" Width="100" Margin="0, 0, 0, 200"></TextBox>
+        </Grid>
     </Grid>
 </Window>

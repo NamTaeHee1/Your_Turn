@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace Your_Turn_Client
 {
@@ -23,6 +24,12 @@ namespace Your_Turn_Client
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ConnectBtn_OnClick(object sender, RoutedEventArgs e)
+        {
+            string appname = "C:\\Users\\user\\Desktop\\NetworkTopVIew\\TopViewShooter";
+            Process.Start(appname);
         }
     }
 }
