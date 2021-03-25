@@ -9,16 +9,15 @@ public class PlayerNickNameControl : MonoBehaviour
     Transform PlayerTransform;
     [SerializeField]
     TextMeshProUGUI PlayerNickName;
-    [SerializeField]
-    int HeigthY = 10;
 
-    private void Start()
+
+    void Start()
     {
-        PlayerTransform.GetComponent<Transform>();
+        PlayerTransform = GetComponent<Transform>();
     }
 
     void Update()
     {
-        PlayerNickName.GetComponent<RectTransform>().anchoredPosition = PlayerTransform.GetComponent<Transform>().position;
+        
     }
 }
