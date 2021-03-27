@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class NetworkManager : MonoBehaviourPun
+public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    private void Start()
-    {
-        
-    }
+    void Start() => PhotonNetwork.ConnectUsingSettings();
 }
