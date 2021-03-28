@@ -33,6 +33,6 @@ public class PlayerMoveControl : MonoBehaviour
 
     void PlayerRotate()
     {
-        
+        PlayerTransform.Rotate(new Vector3(h, 0, v) * 10.0f);
     }
 }
