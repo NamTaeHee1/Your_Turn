@@ -6,18 +6,12 @@ using TMPro;
 
 public class PlayerNickNameControl : MonoBehaviour
 {
-    Transform PlayerTransform;
-    [SerializeField]
-    TextMeshProUGUI PlayerNickName;
+    [SerializeField]    private TextMeshProUGUI PlayerNickName;
 
 
     void Start()
     {
-        PlayerTransform = GetComponent<Transform>();
+        PlayerNickName.text = TCPManager.PlayerNickName;
     }
 
-    void Update()
-    {
-        
-    }
 }
