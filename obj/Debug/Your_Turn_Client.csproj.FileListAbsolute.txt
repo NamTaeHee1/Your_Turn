@@ -1,0 +1,15 @@
+D:\github\Your_Turn\Client(WPF)\bin\Debug\Your_Turn_Client.exe.config
+D:\github\Your_Turn\Client(WPF)\bin\Debug\Your_Turn_Client.exe
+D:\github\Your_Turn\Client(WPF)\bin\Debug\Your_Turn_Client.pdb
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.csprojAssemblyReference.cache
+D:\github\Your_Turn\Client(WPF)\obj\Debug\MainWindow.g.cs
+D:\github\Your_Turn\Client(WPF)\obj\Debug\App.g.cs
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client_MarkupCompile.cache
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client_MarkupCompile.lref
+D:\github\Your_Turn\Client(WPF)\obj\Debug\MainWindow.baml
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.g.resources
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.Properties.Resources.resources
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.csproj.GenerateResource.cache
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.csproj.CoreCompileInputs.cache
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.exe
+D:\github\Your_Turn\Client(WPF)\obj\Debug\Your_Turn_Client.pdb
