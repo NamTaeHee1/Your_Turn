@@ -1,0 +1,1924 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 17763.1817; Version 1809; 64bit' Language: 'ko' Physical Memory: 16298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/github/Your_Turn/Game(Unity)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56848
+Successfully changed project path to: D:/github/Your_Turn/Game(Unity)
+D:/github/Your_Turn/Game(Unity)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/github/Your_Turn/Game(Unity)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   
+    VRAM:     2048 MB
+    Driver:   20.19.15.4300
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001734 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.071 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1334 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 2.264400 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.105200 ms MarkObjects: 1.862700 ms  DeleteObjects: 0.097300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Player_1.prefab
+  artifactKey: Guid(63440663faa05e948b9e547cfb552034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player_1.prefab using Guid(63440663faa05e948b9e547cfb552034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5f1c7cb8a5f192c375a59ba7bd844f') in 0.192807 seconds
+  Import took 0.200344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.3 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 2.291900 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.101600 ms MarkObjects: 1.899700 ms  DeleteObjects: 0.067000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1847.612901 seconds.
+  path: Assets/Asset
+  artifactKey: Guid(447df78938ce96e45a7bd332772179d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset using Guid(447df78938ce96e45a7bd332772179d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db00b9102a7f63f4ec5022688b6406') in 0.010456 seconds
+  Import took 0.015671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.569343 seconds.
+  path: Assets/Asset/UI_Set.png
+  artifactKey: Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/UI_Set.png using Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b9ecf80e7c10fbb7d5758574212390') in 0.147457 seconds
+  Import took 0.152559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.192168 seconds.
+  path: Assets/Asset/UI_Set.png
+  artifactKey: Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/UI_Set.png using Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41800b61c4c6e7389e794d24dc7a4cd') in 0.062812 seconds
+  Import took 0.066865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.065010 seconds.
+  path: Assets/Asset/UI_Set.png
+  artifactKey: Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/UI_Set.png using Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbf45ed046232bdb32702d4b3ae2ed8') in 0.019718 seconds
+  Import took 0.030016 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005172 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1349 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.7 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 3.573100 ms (FindLiveObjects: 0.410100 ms CreateObjectMapping: 0.195600 ms MarkObjects: 2.881900 ms  DeleteObjects: 0.082700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.750423 seconds.
+  path: Assets/Asset/UI_Set.png
+  artifactKey: Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/UI_Set.png using Guid(beec32663a2610143bb51543ec04ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0a02e2e5512d9ca27eb7aa9ad08ae8') in 0.094877 seconds
+  Import took 0.100208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1148.744306 seconds.
+  path: Assets/Scenes/TeamScene.unity
+  artifactKey: Guid(f82727017ca5bc847aa4735103e6f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TeamScene.unity using Guid(f82727017ca5bc847aa4735103e6f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f96746d518a9484e892f43975c48073') in 0.006581 seconds
+  Import took 0.010658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.065337 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes
+  artifactKey: Guid(9d20d945c0685494ba906e939e1dd86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes using Guid(9d20d945c0685494ba906e939e1dd86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0163b230dd9756b2665be7ee09d531') in 0.005887 seconds
+  Import took 0.009460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080428 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png
+  artifactKey: Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Flower.png using Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a053358ed2a82e942e18cff087d836aa') in 0.068560 seconds
+  Import took 0.073181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png
+  artifactKey: Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png using Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8646a86d689e53f9282b34852045ed') in 0.033995 seconds
+  Import took 0.038379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png
+  artifactKey: Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png using Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7050dd4f393f2e1db3a71533b7c3fc6c') in 0.025643 seconds
+  Import took 0.029885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
+  artifactKey: Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png using Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e0ea8107d6689d1bbb4067f92fec40') in 0.027235 seconds
+  Import took 0.031010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png
+  artifactKey: Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png using Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2efc1e7bf8dc1e009bd6880a52b5ba') in 0.017540 seconds
+  Import took 0.022315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png
+  artifactKey: Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png using Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a9936ae010d2d28379bf3171c4f10b') in 0.018534 seconds
+  Import took 0.022034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer
+  artifactKey: Guid(ca948470117be2143a600fa882a2b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainRock.terrainlayer using Guid(ca948470117be2143a600fa882a2b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edd7877d814c5aea3fc3348886a816b') in 0.044867 seconds
+  Import took 0.049058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/SampleTerrain.asset
+  artifactKey: Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/SampleTerrain.asset using Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6f3a4fbea52b1984a60e7fde9fd393') in 0.167185 seconds
+  Import took 0.173269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer
+  artifactKey: Guid(d62e27a62f70e074eba77bbd9259e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainDirt.terrainlayer using Guid(d62e27a62f70e074eba77bbd9259e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd879dba0d29d07a7426981c48b8a4459') in 0.017446 seconds
+  Import took 0.020678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png
+  artifactKey: Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png using Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764cfcbc5dbe57856070562fba074e78') in 0.021687 seconds
+  Import took 0.026241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png
+  artifactKey: Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png using Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c388661267a2fed3af5f3e8e2bd342cb') in 0.018258 seconds
+  Import took 0.022172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer
+  artifactKey: Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer using Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b799d2c65d45c17a48d89cb4359f11') in 0.023204 seconds
+  Import took 0.026370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png
+  artifactKey: Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png using Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eed0040e979743f2e61e5eb19b103a4') in 0.016494 seconds
+  Import took 0.019966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.233599 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo.unity
+  artifactKey: Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo.unity using Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925b9c84048771a8bd12881438ce945') in 0.005966 seconds
+  Import took 0.009030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001329 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo.unity
+  artifactKey: Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo.unity using Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925b9c84048771a8bd12881438ce945') in 0.004222 seconds
+  Import took 0.007225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.801759 seconds.
+  path: Assets/Material/CharacterSkinColor.mat
+  artifactKey: Guid(c17875b4d7dd45d418339744c49c4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/CharacterSkinColor.mat using Guid(c17875b4d7dd45d418339744c49c4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b215518ef2e8f3033b94d4fa41ac17') in 0.157742 seconds
+  Import took 0.161629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.076842 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night.png
+  artifactKey: Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night.png using Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97148e3d52ad1690b2232d2bd35ca2bb') in 0.016548 seconds
+  Import took 0.020588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.png
+  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7cb1b4e622fe5cb52562722be455f6') in 0.013784 seconds
+  Import took 0.017138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.mat
+  artifactKey: Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.mat using Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2df5c61bc045bebb5e2b0d8a848176') in 0.033798 seconds
+  Import took 0.039232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night_Moonless.png
+  artifactKey: Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night_Moonless.png using Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8005713f0984354a672fe048b5bc9ede') in 0.086532 seconds
+  Import took 0.091205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.png
+  artifactKey: Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.png using Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee6c2968fcc201b2cc5b2caed585d7c') in 0.038762 seconds
+  Import took 0.043045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunrise.png
+  artifactKey: Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunrise.png using Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0336a44f120a35ced5c8b4f426380f1') in 0.058061 seconds
+  Import took 0.061998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.mat
+  artifactKey: Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.mat using Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ff0605911a88c7763d1f5ca07c5821') in 0.054756 seconds
+  Import took 0.058097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunrise.mat
+  artifactKey: Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunrise.mat using Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d3e996ffd32341ea050226909a7fff') in 0.055541 seconds
+  Import took 0.059336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night_Moonless.mat
+  artifactKey: Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night_Moonless.mat using Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31b37ecede25ece414e08b2fe2451b') in 0.051793 seconds
+  Import took 0.055187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.png
+  artifactKey: Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.png using Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f38744ee2964e5844c9daa786b47ea') in 0.043966 seconds
+  Import took 0.047683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.mat
+  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1108213fbbda00e5fdc18a35f76167') in 0.049494 seconds
+  Import took 0.053258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563325 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_03.mat
+  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7f7775dd3ce00ae48cce9d0248e16b') in 0.015517 seconds
+  Import took 0.018876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night.mat
+  artifactKey: Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night.mat using Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bddec80453ce6de823719115d22c578') in 0.015924 seconds
+  Import took 0.019010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat
+  artifactKey: Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat using Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2647ece1a657a9cfb0762036f994bb20') in 0.016008 seconds
+  Import took 0.020143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day_Sunless.mat
+  artifactKey: Guid(67950864b84c5db4f9eee7ca51c85571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day_Sunless.mat using Guid(67950864b84c5db4f9eee7ca51c85571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4241e689233d4b574c23fe23c7010e1c') in 0.021789 seconds
+  Import took 0.026118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night.mat
+  artifactKey: Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night.mat using Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f438789c2ba89ffc14f99bee47aa73f8') in 0.035258 seconds
+  Import took 0.038657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Rainy.mat
+  artifactKey: Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Rainy.mat using Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537c81fdee24a5e3e305737c0e67abc7') in 0.016028 seconds
+  Import took 0.019769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night_Moonless.mat
+  artifactKey: Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night_Moonless.mat using Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5bf0b1295a2dabb64848eb0dbfc0d2') in 0.039635 seconds
+  Import took 0.043260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d1685e7830c80a8ae7f2cf0fb749a2') in 0.058642 seconds
+  Import took 0.062107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunrise.mat
+  artifactKey: Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunrise.mat using Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aacb0d6e4e4911ab84d0dd19b4e0d5') in 0.056731 seconds
+  Import took 0.059736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunset.mat
+  artifactKey: Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunset.mat using Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6fd868c2eb75d74ebe5f6923fa262a') in 0.049684 seconds
+  Import took 0.052814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day.mat
+  artifactKey: Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day.mat using Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bd221865c30e1856637d76d6e2cea5') in 0.064183 seconds
+  Import took 0.067396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Sunrise.mat
+  artifactKey: Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Sunrise.mat using Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6e9acc854040348658c6781c561925') in 0.055180 seconds
+  Import took 0.059812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day.mat
+  artifactKey: Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day.mat using Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a320098582cddc01cf62236ce8f6a5') in 0.094879 seconds
+  Import took 0.098993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6423eabc9c49bda34f667b4dd06ae8b9') in 0.022615 seconds
+  Import took 0.027331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night_Moonless.mat
+  artifactKey: Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night_Moonless.mat using Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f418553815576c23eb8a8e6f7fcff759') in 0.019308 seconds
+  Import took 0.023276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day.mat
+  artifactKey: Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day.mat using Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588222f4fa63ace9a1b87fe372238889') in 0.045080 seconds
+  Import took 0.049104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Snowy.mat
+  artifactKey: Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Snowy.mat using Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6034e646a0783ae0b49bc683816db125') in 0.018439 seconds
+  Import took 0.023037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunrise.mat
+  artifactKey: Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunrise.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c945bffee2d4c45822cddb2e1593e') in 0.047278 seconds
+  Import took 0.051360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night_Moonless.mat
+  artifactKey: Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night_Moonless.mat using Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca661fc8417910643657c1bb70258d9f') in 0.047350 seconds
+  Import took 0.051438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Sunset.mat
+  artifactKey: Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Sunset.mat using Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef9bca8461f8a85332640ab0dba8c6e') in 0.046973 seconds
+  Import took 0.050835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_03_Moonless.mat
+  artifactKey: Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_03_Moonless.mat using Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a019e858498c782f7e0c41c068cc9b3') in 0.051969 seconds
+  Import took 0.055744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat
+  artifactKey: Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat using Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ed02932fd06453620e2db8c406c2c0') in 0.051770 seconds
+  Import took 0.055362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day_Sunless.mat
+  artifactKey: Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day_Sunless.mat using Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4040eaff1b7b5ffb8c825b8cba92760') in 0.053605 seconds
+  Import took 0.057026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Snowy.mat
+  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1931f6052e8e77e6d4e5adf194956') in 0.051332 seconds
+  Import took 0.054618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night.mat
+  artifactKey: Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night.mat using Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a947c0f94c6051ed3d1a1caa2072e8') in 0.048797 seconds
+  Import took 0.052263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day_Sunless.mat
+  artifactKey: Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day_Sunless.mat using Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e883b79a6aeaad4e92ae173a24d3ccfc') in 0.049761 seconds
+  Import took 0.052799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day_Sunless.mat
+  artifactKey: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c68554e664470d7703f102304d44522') in 0.050543 seconds
+  Import took 0.054167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Snowy.mat
+  artifactKey: Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Snowy.mat using Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1e9a9545cf3c04613b9660613197dc') in 0.016905 seconds
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat
+  artifactKey: Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat using Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea89226f8ec05f6ec0c1793a5f7bbe8') in 0.047457 seconds
+  Import took 0.050870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Snowy.mat
+  artifactKey: Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Snowy.mat using Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1e9a9545cf3c04613b9660613197dc') in 0.015045 seconds
+  Import took 0.018145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020803 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat
+  artifactKey: Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Day.mat using Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea89226f8ec05f6ec0c1793a5f7bbe8') in 0.027844 seconds
+  Import took 0.031319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.652951 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Witch.obj
+  artifactKey: Guid(e41d2b132b762a34e96599c93c64f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Witch.obj using Guid(e41d2b132b762a34e96599c93c64f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8e3937bad4aa7e442344341a24287') in 0.183019 seconds
+  Import took 0.186560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat
+  artifactKey: Guid(32e7ed8e6b80b884bbed8260b788648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat using Guid(32e7ed8e6b80b884bbed8260b788648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b49596bceed55495fa261fba0b2ec8d') in 0.030228 seconds
+  Import took 0.033070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat
+  artifactKey: Guid(ba3bddb608259184783916ac7915d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat using Guid(ba3bddb608259184783916ac7915d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110127361c34e43c26f05c7ce1f87b4c') in 0.019329 seconds
+  Import took 0.022602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Female.obj
+  artifactKey: Guid(803dbe118dbf0614090464a20ca0d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Female.obj using Guid(803dbe118dbf0614090464a20ca0d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91512aa99e3f270cda21df63f244b58') in 0.166265 seconds
+  Import took 0.170124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Female.blend
+  artifactKey: Guid(adc36d9c89bff4147b335c0baeda4738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Female.blend using Guid(adc36d9c89bff4147b335c0baeda4738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a1af21e859581401e5983f599de2a4') in 0.159007 seconds
+  Import took 0.162799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Witch.blend
+  artifactKey: Guid(f8f4d387505fca54fbd0b4bbbc7f492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Witch.blend using Guid(f8f4d387505fca54fbd0b4bbbc7f492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe76c2872b0895bf758e3cfa119583e5') in 0.124097 seconds
+  Import took 0.127557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Male.blend
+  artifactKey: Guid(f618b16224f1d7243a3dac1940b27fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Male.blend using Guid(f618b16224f1d7243a3dac1940b27fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd016dd98a610dfc4d8f025f1d1f20e') in 0.133423 seconds
+  Import took 0.136899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Wizard.blend
+  artifactKey: Guid(519a5d93b2b22864c8ad7c3f18b224d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Wizard.blend using Guid(519a5d93b2b22864c8ad7c3f18b224d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5314463ce10dc1050e27812bb391ef9') in 0.127479 seconds
+  Import took 0.130572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Male.obj
+  artifactKey: Guid(da25d896757cf554bae357f7457562e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Male.obj using Guid(da25d896757cf554bae357f7457562e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa3cdfc7a40de9cb4e8fb4de62092fd') in 0.112459 seconds
+  Import took 0.115665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male.obj
+  artifactKey: Guid(a92040a385334d94aa875e65eedc6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male.obj using Guid(a92040a385334d94aa875e65eedc6aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d32e78296f96ac3461474481d2e35d4') in 0.108408 seconds
+  Import took 0.111681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Elf.blend
+  artifactKey: Guid(6870231abfd059f49bf7f53b8fd060e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Elf.blend using Guid(6870231abfd059f49bf7f53b8fd060e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab7f23d8d7770e9d9b5688aa1ce154a') in 0.104820 seconds
+  Import took 0.108381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male.blend
+  artifactKey: Guid(85bfa032187e0354a8045eb4541aa589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male.blend using Guid(85bfa032187e0354a8045eb4541aa589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c6d499e5a387839c74a8b7e24407d1') in 0.134706 seconds
+  Import took 0.138248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Elf.obj
+  artifactKey: Guid(74e51d82c7336cd43b2945cbd04611ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Elf.obj using Guid(74e51d82c7336cd43b2945cbd04611ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d0550ad5e11bc743f02e90887588c5') in 0.059687 seconds
+  Import took 0.063056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Male.obj
+  artifactKey: Guid(1711d1efd34464e438ce7adb5fa86483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pirate_Male.obj using Guid(1711d1efd34464e438ce7adb5fa86483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec21b89823cf2fbd54c162298dc9b51') in 0.184318 seconds
+  Import took 0.188497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand.obj
+  artifactKey: Guid(c575a52e86f5323478bd61738f1face4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand.obj using Guid(c575a52e86f5323478bd61738f1face4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a88db8073c72594d994405253af372') in 0.068768 seconds
+  Import took 0.072097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Wizard.obj
+  artifactKey: Guid(381df3fddb98e7745820e898d4bd94cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Wizard.obj using Guid(381df3fddb98e7745820e898d4bd94cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5e8516767e203765540010d1df5c6f') in 0.129498 seconds
+  Import took 0.132778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand.blend
+  artifactKey: Guid(37bfbf229a0690241a2ca6eec6a6cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand.blend using Guid(37bfbf229a0690241a2ca6eec6a6cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bad19a2d12318206d5b72b4e02e213') in 0.110600 seconds
+  Import took 0.113929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Female.obj
+  artifactKey: Guid(1721c66c2066b62489ff066dd4b3ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BlueSoldier_Female.obj using Guid(1721c66c2066b62489ff066dd4b3ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2736ad81b18df6795372967e46381a83') in 0.114545 seconds
+  Import took 0.117823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.989957 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Female.blend
+  artifactKey: Guid(dff67e8a530ebc94da0803e33bd9cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Female.blend using Guid(dff67e8a530ebc94da0803e33bd9cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eda807b4fa38f52a1e0062dea862384') in 0.073507 seconds
+  Import took 0.077260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat
+  artifactKey: Guid(b34ebdee5d4d60b43baa8cb211b29444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat using Guid(b34ebdee5d4d60b43baa8cb211b29444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bb21d201a79b5afa0ec03f4fec1f48') in 0.016872 seconds
+  Import took 0.067446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Female.blend
+  artifactKey: Guid(98c7fc5c806ef944495bb8c17f9868fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Female.blend using Guid(98c7fc5c806ef944495bb8c17f9868fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e462a361a5eece8a2603b21d9525d88') in 0.145154 seconds
+  Import took 0.149361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat
+  artifactKey: Guid(fef45cc204351a9458f02ad7c0243f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat using Guid(fef45cc204351a9458f02ad7c0243f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57c3336958f62012a971aa069254acb') in 0.019723 seconds
+  Import took 0.023867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male_Hair.obj
+  artifactKey: Guid(08b3db9e7a851e94f83a5fb5f82284b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Male_Hair.obj using Guid(08b3db9e7a851e94f83a5fb5f82284b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5db1a6f80d0097055fc0e2758ab2fa2') in 0.158672 seconds
+  Import took 0.162605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Male.blend
+  artifactKey: Guid(3d26fa717ac2dfc40817ee57a992c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Male.blend using Guid(3d26fa717ac2dfc40817ee57a992c07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd0923b70ca45029abb8b3277e87ae') in 0.115031 seconds
+  Import took 0.119052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Hair.blend
+  artifactKey: Guid(7cce91660c58a7c4a814e4f5d95b798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Hair.blend using Guid(7cce91660c58a7c4a814e4f5d95b798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19609e58e7fc8ba4ef14bb677fbc598b') in 0.117792 seconds
+  Import took 0.121029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Female.obj
+  artifactKey: Guid(dbbae88002589cc42a9c1ce67803c7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Female.obj using Guid(dbbae88002589cc42a9c1ce67803c7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93966d82c0903198d18ce8853df3103e') in 0.116864 seconds
+  Import took 0.120428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand_Female.obj
+  artifactKey: Guid(7ca681cd07604564985281a1ad4fc109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Sand_Female.obj using Guid(7ca681cd07604564985281a1ad4fc109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8103a26115048a8af2aca033a135742') in 0.108154 seconds
+  Import took 0.111465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Female.obj
+  artifactKey: Guid(a74816c365016754b820fb4c966b7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Female.obj using Guid(a74816c365016754b820fb4c966b7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49b4b6bf9ac0d72e76c179e1978ef30') in 0.099830 seconds
+  Import took 0.103217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Female.blend
+  artifactKey: Guid(532a2b13d71d2a44fb4631b476bdf95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Female.blend using Guid(532a2b13d71d2a44fb4631b476bdf95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d6c371289886214b5aca06591a1267') in 0.120372 seconds
+  Import took 0.124028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Young.blend
+  artifactKey: Guid(961d9f1542cf064408152e571e323567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Young.blend using Guid(961d9f1542cf064408152e571e323567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31503a5593c6ed808fa87f7e19e08037') in 0.070638 seconds
+  Import took 0.074518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Female.blend
+  artifactKey: Guid(66a6405dd6d8c5747957034379976097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Female.blend using Guid(66a6405dd6d8c5747957034379976097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874219fac0870aebc3d0874e281cc935') in 0.134983 seconds
+  Import took 0.138908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Male.blend
+  artifactKey: Guid(09b539efffb35714a9173a5d17da0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Male.blend using Guid(09b539efffb35714a9173a5d17da0636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9768c8f0f3e319d414240c2ff7e538c') in 0.133672 seconds
+  Import took 0.137004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Male.blend
+  artifactKey: Guid(fcd1545e3d2992e49a4e7e3303748fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Male.blend using Guid(fcd1545e3d2992e49a4e7e3303748fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1790b344b7dccc7d977d824d2f52d646') in 0.155401 seconds
+  Import took 0.159608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Female.blend
+  artifactKey: Guid(80df3d2f7174e954f898e472926ddc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Female.blend using Guid(80df3d2f7174e954f898e472926ddc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbd6ce4e559d84cf815d66f9e589e45') in 0.123629 seconds
+  Import took 0.127072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male_Hair.blend
+  artifactKey: Guid(abb3ddc1fabd93b49ae3bd26b3a3c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male_Hair.blend using Guid(abb3ddc1fabd93b49ae3bd26b3a3c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac660ff2f06be70541e0053bbeb928db') in 0.123263 seconds
+  Import took 0.126672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Female.obj
+  artifactKey: Guid(efc4b9b7821887a40b980d5d96d0e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Ninja_Female.obj using Guid(efc4b9b7821887a40b980d5d96d0e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dab25c3b0194e3153a19b9b7974e1a') in 0.117145 seconds
+  Import took 0.120442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat
+  artifactKey: Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat using Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a06135ad62ce45a14494c3d674f2e78') in 0.017482 seconds
+  Import took 0.020562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Old.blend
+  artifactKey: Guid(ed627fb144c518445962311f1a3d09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Old.blend using Guid(ed627fb144c518445962311f1a3d09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e21913e5c6b96520026a8bbf9ed3c84') in 0.105741 seconds
+  Import took 0.109226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Female.obj
+  artifactKey: Guid(10b80e8ec3cfda64fa0d65df9155c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Female.obj using Guid(10b80e8ec3cfda64fa0d65df9155c3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7298f94fd9e16b0aceb8072454df91') in 0.061329 seconds
+  Import took 0.064855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Male.obj
+  artifactKey: Guid(583b2d6b722967144afa65ecf69f6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Zombie_Male.obj using Guid(583b2d6b722967144afa65ecf69f6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4b322f5bc870e2368cb92a2b5283f3') in 0.079190 seconds
+  Import took 0.083301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860750 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Female.obj
+  artifactKey: Guid(2c8fc1826e5ce094d8bb5fea45ed1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Female.obj using Guid(2c8fc1826e5ce094d8bb5fea45ed1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1ba75a26bdd1eab74ccdae88e43acc') in 0.073688 seconds
+  Import took 0.078031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Female.blend
+  artifactKey: Guid(3b271b111f83f164eaf50197b503bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Female.blend using Guid(3b271b111f83f164eaf50197b503bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8911bb5c331a1ea0d875be9b467666db') in 0.126040 seconds
+  Import took 0.130735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Male.obj
+  artifactKey: Guid(daf821532d0b9524495989e5c85ab82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Male.obj using Guid(daf821532d0b9524495989e5c85ab82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2198ae9fb6f89fa65e88b364f5e39d36') in 0.119758 seconds
+  Import took 0.123336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/leaves_palm_243.mat
+  artifactKey: Guid(6fe15af0e28a31a43bf683296709c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/leaves_palm_243.mat using Guid(6fe15af0e28a31a43bf683296709c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea27e86b158a23ee3709ce4aed94b04a') in 0.020187 seconds
+  Import took 0.024183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Female.blend
+  artifactKey: Guid(c0bc232f8ac0d5446b06f6771ac56ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Female.blend using Guid(c0bc232f8ac0d5446b06f6771ac56ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc30653f6a6abcb7c2bc2911de2fb2b') in 0.115063 seconds
+  Import took 0.119387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Male.obj
+  artifactKey: Guid(e80fd2b301dafa7428844d70626dea7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Male.obj using Guid(e80fd2b301dafa7428844d70626dea7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f26eaea0d025ef909fd27b63076591') in 0.133504 seconds
+  Import took 0.137509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafc943c64d19888e1450ff75b3539da') in 0.121469 seconds
+  Import took 0.125324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Male.obj
+  artifactKey: Guid(635da3dc11afaa64f82d760b0dfc77be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Male.obj using Guid(635da3dc11afaa64f82d760b0dfc77be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79c9aa7d7166c3de322247cbdefacb5') in 0.114073 seconds
+  Import took 0.118173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Female.obj
+  artifactKey: Guid(cf58eed0340a6d644be23ad534caf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/OldClassy_Female.obj using Guid(cf58eed0340a6d644be23ad534caf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c875b0bc3223b5a60ac7bdf161d9e') in 0.116571 seconds
+  Import took 0.119903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Hat.blend
+  artifactKey: Guid(2e20150bfcda3f1438fb4724cdd520db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Hat.blend using Guid(2e20150bfcda3f1438fb4724cdd520db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28716e322e6b5d97add85d6c96629e40') in 0.114776 seconds
+  Import took 0.118210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Male.obj
+  artifactKey: Guid(87cdade9e870e6c4da173615cc4e8236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Male.obj using Guid(87cdade9e870e6c4da173615cc4e8236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661bfdde260eec1abf1a0d1a00cf0a4f') in 0.103834 seconds
+  Import took 0.107128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Old.obj
+  artifactKey: Guid(83b5b83abe7d7324385a299be48bcb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Old.obj using Guid(83b5b83abe7d7324385a299be48bcb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276256214cea5527e8e39616affba46d') in 0.104888 seconds
+  Import took 0.108914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Male.obj
+  artifactKey: Guid(e259684a8fb8d4a489ec1a612d8b91e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Male.obj using Guid(e259684a8fb8d4a489ec1a612d8b91e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4358c94cf69164b0b616145c098d5225') in 0.064854 seconds
+  Import took 0.068767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Male.blend
+  artifactKey: Guid(b6cf60b2223edbe4ca359137b396d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Male.blend using Guid(b6cf60b2223edbe4ca359137b396d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aee949265653c31028e285eb9667cd1') in 0.168173 seconds
+  Import took 0.172990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04_Sunless.mat
+  artifactKey: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86347bf9b25f8cafcbcfc01a5b9bacaf') in 0.016311 seconds
+  Import took 0.019983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Male.obj
+  artifactKey: Guid(9ca371170c1c14544b2a4693aaa8f76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Male.obj using Guid(9ca371170c1c14544b2a4693aaa8f76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d22366d5ff0add4eb1fe30c1558e21a') in 0.185564 seconds
+  Import took 0.189858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand_Female.blend
+  artifactKey: Guid(5c4e6f44681e8534aae0412ec6aee598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand_Female.blend using Guid(5c4e6f44681e8534aae0412ec6aee598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49be3270b0e124628157a04bb9a9345') in 0.119350 seconds
+  Import took 0.123478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof35.ttf
+  artifactKey: Guid(954746d370bc8934299c8c8267543f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/eurof35.ttf using Guid(954746d370bc8934299c8c8267543f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b760d4d68eb2b19645d3c87bbb4218') in 0.034475 seconds
+  Import took 0.038187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Young.obj
+  artifactKey: Guid(cfa9998ca7f2aa5459f2eb69a4497c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Female_Young.obj using Guid(cfa9998ca7f2aa5459f2eb69a4497c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35317850aec509082e7fb30ceca8c99c') in 0.149294 seconds
+  Import took 0.152579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.mat
+  artifactKey: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab106383bdf24a41395fff3eb1acdb9') in 0.014948 seconds
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05_Sunless.mat
+  artifactKey: Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05_Sunless.mat using Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cb8653146981b95e9aeb66d2a31494') in 0.016948 seconds
+  Import took 0.019986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06.mat
+  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c4a959a8c55524d87b09997778c277') in 0.018606 seconds
+  Import took 0.022199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Male.blend
+  artifactKey: Guid(ac14c48b937a52940b74ddcf211b3b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Male.blend using Guid(ac14c48b937a52940b74ddcf211b3b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637c9460021b9eea3e2a3413e1d7adb') in 0.122856 seconds
+  Import took 0.126611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Female.blend
+  artifactKey: Guid(930cef48194de3c47a45cccc840e744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Female.blend using Guid(930cef48194de3c47a45cccc840e744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca8d07bbb1169b266d42141d4562834') in 0.112794 seconds
+  Import took 0.116079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_03.mat
+  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f245b9ea254587068b4ee24438dca1a') in 0.014039 seconds
+  Import took 0.017004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05.mat
+  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94047ce0bb06c59d88e5eaff0315bc7') in 0.016260 seconds
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_2.mat
+  artifactKey: Guid(9cc3c2bbff5d71d45ab82bdd222f75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_2.mat using Guid(9cc3c2bbff5d71d45ab82bdd222f75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b549776a7f3b71af402e7b054cbc1a') in 0.060059 seconds
+  Import took 0.063950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Female.blend
+  artifactKey: Guid(c3ea9da6f78bb3c45b5db041a5f7b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Female.blend using Guid(c3ea9da6f78bb3c45b5db041a5f7b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ccd38df63f723aefbe460ec43a7912') in 0.140328 seconds
+  Import took 0.143709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.mat
+  artifactKey: Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_02_Sunless.mat using Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09212b53c2c92947bedb56406d442a82') in 0.014103 seconds
+  Import took 0.017183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Female.blend
+  artifactKey: Guid(6ba942c35b14c214db77a97979557e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Female.blend using Guid(6ba942c35b14c214db77a97979557e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497ef2eb3a642438ce291b9c76f582fa') in 0.112715 seconds
+  Import took 0.116426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Female.obj
+  artifactKey: Guid(b1c09fc5bf4bd8d4385085c8a06e5d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Viking_Female.obj using Guid(b1c09fc5bf4bd8d4385085c8a06e5d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6118231451b4363b09646f844984e58') in 0.118928 seconds
+  Import took 0.122471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Female.blend
+  artifactKey: Guid(d60248a89b3bc2243bf6728d47dc4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Female.blend using Guid(d60248a89b3bc2243bf6728d47dc4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356cd7414a28f13e1ee0284190d12c88') in 0.153635 seconds
+  Import took 0.156834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat
+  artifactKey: Guid(86080a783905b5740ad2b81f63a2c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat using Guid(86080a783905b5740ad2b81f63a2c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a9c1288807986fc56d544fab89654a') in 0.018301 seconds
+  Import took 0.021296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cow.blend
+  artifactKey: Guid(c25552b60f92a174bbf530902db96d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cow.blend using Guid(c25552b60f92a174bbf530902db96d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d42b6bd63a4ec3f2be2ef9e64694a') in 0.174456 seconds
+  Import took 0.178187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Female.obj
+  artifactKey: Guid(bfa1bf0add2010d43bdbc79f77764e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Female.obj using Guid(bfa1bf0add2010d43bdbc79f77764e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b23cf1b45f8a1db4cec8af32df0244') in 0.129600 seconds
+  Import took 0.132900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Male.blend
+  artifactKey: Guid(33c89515b8cbc9348862fe097aa3fc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Male.blend using Guid(33c89515b8cbc9348862fe097aa3fc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6a52bd5e7d73932fe04ad83279b52b') in 0.124472 seconds
+  Import took 0.127896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Hair.obj
+  artifactKey: Guid(3a9cd90c19d6f824db564bd9a70d18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cowboy_Hair.obj using Guid(3a9cd90c19d6f824db564bd9a70d18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7226245de8bacae3a29e4fe55b35a1dc') in 0.121615 seconds
+  Import took 0.125333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/VikingHelmet.blend
+  artifactKey: Guid(039f3327918705d4b8190b2487194482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/VikingHelmet.blend using Guid(039f3327918705d4b8190b2487194482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d7a46732ffa9b7edd1fc67fbb1db80') in 0.122944 seconds
+  Import took 0.126510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Male.blend
+  artifactKey: Guid(64b5ef50e3f0d1b49b258d1a47826f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Male.blend using Guid(64b5ef50e3f0d1b49b258d1a47826f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baa67a68d90c0deee2261d620743193') in 0.119446 seconds
+  Import took 0.122931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Male.obj
+  artifactKey: Guid(91dd2c09d610c5d479f1fcf3db6cb368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Male.obj using Guid(91dd2c09d610c5d479f1fcf3db6cb368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4098772635cf31e57532830d49b455') in 0.061079 seconds
+  Import took 0.064153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Orbitron Black.ttf
+  artifactKey: Guid(495c9e2a934bcc640a8d7427b13cb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Orbitron Black.ttf using Guid(495c9e2a934bcc640a8d7427b13cb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe3bbbf7dc70c5d025cc3193600e0e6') in 0.047495 seconds
+  Import took 0.051343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Male.blend
+  artifactKey: Guid(d2b77f455dd1e31418d62e9c85ed6394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Male.blend using Guid(d2b77f455dd1e31418d62e9c85ed6394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4926aeb98a26af75a6626dbc818d0bc8') in 0.135275 seconds
+  Import took 0.138759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02.mat
+  artifactKey: Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02.mat using Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964f42e7fd7dd7b746e7dadfbe853aa5') in 0.014464 seconds
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Male.blend
+  artifactKey: Guid(b38458d5a73e2d646af78bcd0c39ba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Male.blend using Guid(b38458d5a73e2d646af78bcd0c39ba5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cd6fb166c7a395a8dd9b951607ed22') in 0.145411 seconds
+  Import took 0.148836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat
+  artifactKey: Guid(be2c382f522695c4fa3947ac8e1d4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat using Guid(be2c382f522695c4fa3947ac8e1d4457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938bb03f2d70e4452661b0b314512905') in 0.016802 seconds
+  Import took 0.019862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Young.obj
+  artifactKey: Guid(54d4b83e6f55ec44a9c3802a1c220546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Young.obj using Guid(54d4b83e6f55ec44a9c3802a1c220546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91233e9ea9155bbd8096df2ee6fb14e9') in 0.143013 seconds
+  Import took 0.146410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Female.obj
+  artifactKey: Guid(ce64ce7877a10c147879ac927076cc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Female.obj using Guid(ce64ce7877a10c147879ac927076cc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce1c67f3dd44e769c3742637e9cd93') in 0.124359 seconds
+  Import took 0.127875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Female.obj
+  artifactKey: Guid(50735cb57b1529a499c7b44ba8190f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual2_Female.obj using Guid(50735cb57b1529a499c7b44ba8190f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8f35d01ecda2bfcebfae9441b1a922') in 0.104083 seconds
+  Import took 0.107454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Female.blend
+  artifactKey: Guid(786ad164b53c8cf418746de44e9d5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Female.blend using Guid(786ad164b53c8cf418746de44e9d5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b3bfebdaa242962cefb533c58af50a') in 0.103927 seconds
+  Import took 0.107207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02_Moonless.mat
+  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d5e81fcf51aac7155d6b14b8e09e69') in 0.013635 seconds
+  Import took 0.016560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416adab25c09355b24580682c350165') in 0.019746 seconds
+  Import took 0.023247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Male.blend
+  artifactKey: Guid(eb142f3e56d0b1d4aad80cd18c2a70c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Male.blend using Guid(eb142f3e56d0b1d4aad80cd18c2a70c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86075167505ac1e9a1864c775dceb9b4') in 0.133690 seconds
+  Import took 0.137413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/20 - Default.mat
+  artifactKey: Guid(4e1a4e79a3548164da24123dbb0f3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/20 - Default.mat using Guid(4e1a4e79a3548164da24123dbb0f3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369de54380acbc6550917c1c4d4b211') in 0.014882 seconds
+  Import took 0.017961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/24 - Default.mat
+  artifactKey: Guid(c14837dfa515883428e5652d93e80c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/24 - Default.mat using Guid(c14837dfa515883428e5652d93e80c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ddc77b4b087c2f28a809561363a18d') in 0.014655 seconds
+  Import took 0.017948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Flat-Material.mat
+  artifactKey: Guid(c190da5d14d0e904ba512abe82018576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Flat-Material.mat using Guid(c190da5d14d0e904ba512abe82018576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347bc3c2a76c25f27bac093aeda78ff') in 0.021815 seconds
+  Import took 0.025377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.mat
+  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0401b8f71a7ea611fc23394e47730d') in 0.041457 seconds
+  Import took 0.044926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Male.obj
+  artifactKey: Guid(73d703b1b4e0ad74295645c67ab2103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Male.obj using Guid(73d703b1b4e0ad74295645c67ab2103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37406e96d5da35578ba43c2975e3bd9a') in 0.126459 seconds
+  Import took 0.129756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pug.blend
+  artifactKey: Guid(9c2ae2973df26194eb3ab6fa27092e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Pug.blend using Guid(9c2ae2973df26194eb3ab6fa27092e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e831f348698873c92d873964c96a46') in 0.110823 seconds
+  Import took 0.114253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Male.blend
+  artifactKey: Guid(b2702f1464685514a822a01fa13e40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Male.blend using Guid(b2702f1464685514a822a01fa13e40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b16439cdbac30fd65c1e34fe913662') in 0.103860 seconds
+  Import took 0.107370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.mat
+  artifactKey: Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.mat using Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc681ac71ad598732d1b3e10423fc12e') in 0.014350 seconds
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_03_Sunless.mat
+  artifactKey: Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_03_Sunless.mat using Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ca7be421cea74b228289496bab03f7') in 0.015900 seconds
+  Import took 0.020216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/11 - Default.mat
+  artifactKey: Guid(b7d67d7d7ddb88542b23886a4b496c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/11 - Default.mat using Guid(b7d67d7d7ddb88542b23886a4b496c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d9f7da47c4e51934daa65e240f528a') in 0.052756 seconds
+  Import took 0.056399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BaseCharacter.blend
+  artifactKey: Guid(a4c7ecafe01c14e49aaf2bc399f66090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/BaseCharacter.blend using Guid(a4c7ecafe01c14e49aaf2bc399f66090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729aa0ea46b36c9b143271b5c9089a48') in 0.115744 seconds
+  Import took 0.119575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01_Moonless.mat
+  artifactKey: Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01_Moonless.mat using Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2888deed463eb97a4da6fa2b0a5589f1') in 0.013714 seconds
+  Import took 0.016704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Female.blend
+  artifactKey: Guid(0155675a0e0baac41980184d5d9cb95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Female.blend using Guid(0155675a0e0baac41980184d5d9cb95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280e8d9f5d2ee755ab2d6e8320f4a647') in 0.134325 seconds
+  Import took 0.138028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Male.blend
+  artifactKey: Guid(b772dc0f3f7b9c545b33dd6961f9116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Male.blend using Guid(b772dc0f3f7b9c545b33dd6961f9116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b42bdc62e9d1c1dce9d2d65a54bb12') in 0.089676 seconds
+  Import took 0.093431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Female.blend
+  artifactKey: Guid(46d626939fd069a49b46ffd7a3e36859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Female.blend using Guid(46d626939fd069a49b46ffd7a3e36859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe838ebfd27104512a833b31151c78ae') in 0.106693 seconds
+  Import took 0.141105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002462 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat
+  artifactKey: Guid(968fc57e6928a5448ae7d0644246d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat using Guid(968fc57e6928a5448ae7d0644246d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9574370876677ccaa76bb707d4e0f821') in 0.176741 seconds
+  Import took 0.181104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Female.obj
+  artifactKey: Guid(82ae4f399e9bfec4e9f72ecf0e688066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Soldier_Female.obj using Guid(82ae4f399e9bfec4e9f72ecf0e688066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f78e0eea755ccf0a3009aa4cc26d06') in 0.107425 seconds
+  Import took 0.110654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07b93f041c59bf82658c8a697559aae') in 0.113204 seconds
+  Import took 0.116958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Male.blend
+  artifactKey: Guid(924dab38334c91446803fc1f536fb205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Male.blend using Guid(924dab38334c91446803fc1f536fb205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e126af3186ea54f95670347e5067bc26') in 0.112736 seconds
+  Import took 0.116326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cow.obj
+  artifactKey: Guid(7600d24b024dcf148a741ce3ba61e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Cow.obj using Guid(7600d24b024dcf148a741ce3ba61e4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd941b5440ef1df2d8334692246a021d') in 0.122503 seconds
+  Import took 0.126021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat
+  artifactKey: Guid(831e4ea6beda02947bdca5aeb8543156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat using Guid(831e4ea6beda02947bdca5aeb8543156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1983d5c627aaac4bbc15cc472dbae01f') in 0.015541 seconds
+  Import took 0.018727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default.mat
+  artifactKey: Guid(b957742c5b9bfd441b9b330c8b55d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default.mat using Guid(b957742c5b9bfd441b9b330c8b55d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5c2294f693f1441231e0b7cfc207e8') in 0.016683 seconds
+  Import took 0.020881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Male.blend
+  artifactKey: Guid(7d18180bc6d7f334aa2ef1be89e222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Male.blend using Guid(7d18180bc6d7f334aa2ef1be89e222ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f58171296287d22ced7585f402f5d6') in 0.145991 seconds
+  Import took 0.150055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Male.blend
+  artifactKey: Guid(07a2d751f87fd634f97d5ec3c2e51646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Male.blend using Guid(07a2d751f87fd634f97d5ec3c2e51646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988cac14283e0b4907586f25f756681f') in 0.121657 seconds
+  Import took 0.125038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Male.obj
+  artifactKey: Guid(046f6910d24142d428af7c6011fac563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Male.obj using Guid(046f6910d24142d428af7c6011fac563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9650a37e89faa343784bb5a5cb84a4') in 0.060494 seconds
+  Import took 0.064089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat
+  artifactKey: Guid(cdcec2345c1d1af4da10b1c5d9cbff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat using Guid(cdcec2345c1d1af4da10b1c5d9cbff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ab987e2526c4ab2aa92fdedb8471b9') in 0.064549 seconds
+  Import took 0.067927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04.mat
+  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64d32eef32284133e5f26d39aa1880f') in 0.018751 seconds
+  Import took 0.022086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat
+  artifactKey: Guid(1598ff147655ecb4893e78f88baa9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat using Guid(1598ff147655ecb4893e78f88baa9475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae20fc0f2dacd84013d25c3cf8de5c4') in 0.044014 seconds
+  Import took 0.047210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Bald.blend
+  artifactKey: Guid(8c2b50fd7f009da4dabaaeabf2e49a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Bald.blend using Guid(8c2b50fd7f009da4dabaaeabf2e49a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46df8ecad577f4812f28d3de215c3c23') in 0.141073 seconds
+  Import took 0.144671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/FlyerAsteroid1.mat
+  artifactKey: Guid(294f02eac9561704ebe4baa5b1bc4163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/FlyerAsteroid1.mat using Guid(294f02eac9561704ebe4baa5b1bc4163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350eb15b7666b19a8541451f2dc024d9') in 0.015495 seconds
+  Import took 0.018624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Male.obj
+  artifactKey: Guid(3ec07735e7f0ce24abc85d82269edd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Knight_Golden_Male.obj using Guid(3ec07735e7f0ce24abc85d82269edd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2af671a6bc152bfd8d7ac1e453788b') in 0.118215 seconds
+  Import took 0.122240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Male.obj
+  artifactKey: Guid(50739da84cbf0c4468f21de85bc17d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Goblin_Male.obj using Guid(50739da84cbf0c4468f21de85bc17d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1c259c5bf5b51a8ffd031376489ff') in 0.138892 seconds
+  Import took 0.142532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Female.blend
+  artifactKey: Guid(0b76e17c8d075c747aa512b4f3001f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Female.blend using Guid(0b76e17c8d075c747aa512b4f3001f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a348b0a87f8c3a58c8a846a17fda06a') in 0.129277 seconds
+  Import took 0.133276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Female.blend
+  artifactKey: Guid(3b6c01a6c92a70b4797bf61b2bba8306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Female.blend using Guid(3b6c01a6c92a70b4797bf61b2bba8306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cd964dfa7ad140bcc0594a7a288b6d') in 0.140231 seconds
+  Import took 0.144509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Hat.obj
+  artifactKey: Guid(0e1c4b2f80cf1064895c5f48b8295e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Hat.obj using Guid(0e1c4b2f80cf1064895c5f48b8295e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073e2c39df336077ba8be88207070a8') in 0.120032 seconds
+  Import took 0.123910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Female.obj
+  artifactKey: Guid(bafd277fdb8503045b38d598f9d98f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Suit_Female.obj using Guid(bafd277fdb8503045b38d598f9d98f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e987148f195697140e32c4d426912193') in 0.116277 seconds
+  Import took 0.119785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Young.blend
+  artifactKey: Guid(b5929e000e23d454893dd550abe4da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Young.blend using Guid(b5929e000e23d454893dd550abe4da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa60cbefd98c9b5f4eaa0b9b39e9a6') in 0.114733 seconds
+  Import took 0.118752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01.mat
+  artifactKey: Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01.mat using Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf71464a5e30decbc2a55a5d31cca5e') in 0.016381 seconds
+  Import took 0.019976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat
+  artifactKey: Guid(99fced4bc2985174cac8512dc765d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat using Guid(99fced4bc2985174cac8512dc765d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cde35246a213ab473f51c9ff0019432') in 0.025053 seconds
+  Import took 0.028895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Bald.obj
+  artifactKey: Guid(bde1779267da7c2478ab445c7e1691c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Bald.obj using Guid(bde1779267da7c2478ab445c7e1691c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb979ea9f98e34e38ae3806e71b8803') in 0.144698 seconds
+  Import took 0.148412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pug.obj
+  artifactKey: Guid(8c4ca055d6b69824aa5877540acca277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Pug.obj using Guid(8c4ca055d6b69824aa5877540acca277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa707212af974dbbf3830795e0786f3a') in 0.131826 seconds
+  Import took 0.135585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Female.obj
+  artifactKey: Guid(0a8180e3948868a45b0dc6021b70c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Worker_Female.obj using Guid(0a8180e3948868a45b0dc6021b70c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771afadf58a0ab4a663e4f35a55b2e3f') in 0.113724 seconds
+  Import took 0.117593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/EyesMaterial.mat
+  artifactKey: Guid(ce5a83fcea7762541ba43ca5bd854dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/EyesMaterial.mat using Guid(ce5a83fcea7762541ba43ca5bd854dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4beb37f2f8159fb4d1f189afc8ada5') in 0.015312 seconds
+  Import took 0.018903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Male.blend
+  artifactKey: Guid(8f047238500131c4394418abd08d13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Male.blend using Guid(8f047238500131c4394418abd08d13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315607bce25828c31c9a8778e9aa2b34') in 0.111740 seconds
+  Import took 0.115395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Male.obj
+  artifactKey: Guid(da89bd4bc3e384b4a868b04d9fb9b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Chef_Male.obj using Guid(da89bd4bc3e384b4a868b04d9fb9b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aacbe52bc528f1714cd3ad8168af19e') in 0.124617 seconds
+  Import took 0.128238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BaseCharacter.obj
+  artifactKey: Guid(d1ba20682b452de48b24d18e21208dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/BaseCharacter.obj using Guid(d1ba20682b452de48b24d18e21208dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6505fed18ede122d512e2164edc7920a') in 0.040009 seconds
+  Import took 0.043971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01.mat
+  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f6479cb6bc0e49fe2c1d32ba47b561') in 0.082457 seconds
+  Import took 0.086175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Old.blend
+  artifactKey: Guid(1bf4e7dd1a4f46042a504e78ed6cd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Old.blend using Guid(1bf4e7dd1a4f46042a504e78ed6cd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa6adb457fbdfbfb21e9f9958ab2b54') in 0.134323 seconds
+  Import took 0.139064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Female.obj
+  artifactKey: Guid(74a0f95500bff5548b0a726f60f5027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual3_Female.obj using Guid(74a0f95500bff5548b0a726f60f5027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e885ee71efecc9d49d9495bc8977eb77') in 0.110425 seconds
+  Import took 0.114122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default22662.mat
+  artifactKey: Guid(7d91274cc4a876a439f75445704f421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default22662.mat using Guid(7d91274cc4a876a439f75445704f421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0827e3060ff10c6ad30d29f3b15c8c54') in 0.017864 seconds
+  Import took 0.022085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/_defaultMat.mat
+  artifactKey: Guid(f0a6a86e908f6204ab518387a784ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/_defaultMat.mat using Guid(f0a6a86e908f6204ab518387a784ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960a17a3fc6249033d101dc3cb4b59e') in 0.016636 seconds
+  Import took 0.020075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Male.obj
+  artifactKey: Guid(c5683d1812918d7488ee2fe8302592dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Kimono_Male.obj using Guid(c5683d1812918d7488ee2fe8302592dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597fe5d0ac7d112e9e3aa8c60c16ed48') in 0.092749 seconds
+  Import took 0.097393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Old.obj
+  artifactKey: Guid(de47a3d6eb56d6347b58a62fb01700a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Doctor_Male_Old.obj using Guid(de47a3d6eb56d6347b58a62fb01700a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611d45ad9adca34f7607e070d8e80168') in 0.124890 seconds
+  Import took 0.128421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/VikingHelmet.obj
+  artifactKey: Guid(43917082d53542c418383a36bf00a37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/VikingHelmet.obj using Guid(43917082d53542c418383a36bf00a37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb737b2f4927be2b063ea31d03a1117a') in 0.105431 seconds
+  Import took 0.110082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/Jura-Medium-LB.ttf
+  artifactKey: Guid(4a4df204c321f9c40b0dbfb1baaffb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/Jura-Medium-LB.ttf using Guid(4a4df204c321f9c40b0dbfb1baaffb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ce9ad1bcf3ac73dda738eefd7ef6bb') in 0.018909 seconds
+  Import took 0.024147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat
+  artifactKey: Guid(5b3826dd21e1d2b4a947c774023d1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat using Guid(5b3826dd21e1d2b4a947c774023d1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0416e7751ac94525b0cd2edceee7f155') in 0.019182 seconds
+  Import took 0.022542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Male.obj
+  artifactKey: Guid(d20fa1ee7551293439cff1af401ad686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Male.obj using Guid(d20fa1ee7551293439cff1af401ad686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af8ae4386a8341ec1616a99c96fad4') in 0.125085 seconds
+  Import took 0.128820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Female.obj
+  artifactKey: Guid(60ea01f6079205642a1cbb29de463407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Ultimate Animated Character Pack - Nov 2019/OBJ/Casual_Female.obj using Guid(60ea01f6079205642a1cbb29de463407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3efe17d6a3176ac5e28c7a63498fa18') in 0.058047 seconds
+  Import took 0.061560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Medium.ttf
+  artifactKey: Guid(e00995507c2406448b4c8429136104dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/Jura-Medium.ttf using Guid(e00995507c2406448b4c8429136104dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2780c44df34846d592e092a7d0e41f') in 0.052146 seconds
+  Import took 0.056051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat
+  artifactKey: Guid(c282d31bf082fca4a822239b62ff8257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat using Guid(c282d31bf082fca4a822239b62ff8257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0920911a1bae255ec9faacde70449ca2') in 0.019904 seconds
+  Import took 0.023150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.685682 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day.png
+  artifactKey: Guid(90bac99dc822bf641b140cdc291b845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day.png using Guid(90bac99dc822bf641b140cdc291b845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e2a49f8d3259de5e181135e0f061e') in 0.014794 seconds
+  Import took 0.018553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day_Sunless.png
+  artifactKey: Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Day_Sunless.png using Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc80710e7137bc2fb300d20779f505') in 0.013981 seconds
+  Import took 0.017430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006694 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1349 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 3.539600 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.246500 ms  DeleteObjects: 0.870200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.712810 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(fb049b534c9c8da4088d81d7b766d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(fb049b534c9c8da4088d81d7b766d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe99ed59d167a2950e46ca1a093f391') in 0.018353 seconds
+  Import took 0.021647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2122.931470 seconds.
+  path: Assets/Animator/Knight_Male_Animaotr.controller
+  artifactKey: Guid(f0521a55ec776324ab332855590b5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Knight_Male_Animaotr.controller using Guid(f0521a55ec776324ab332855590b5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0ad0cd137bef965aa7ccbf2ee9f82d') in 0.015461 seconds
+  Import took 0.020060 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -61,17 +61,17 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+    <Compile Include="Assets\Scripts\TCPManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
-    <Compile Include="Assets\Scripts\PlayerMoveControl.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Scripts\PlayerNickNameControl.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Scripts\NetworkManager.cs" />
-    <Compile Include="Assets\Scripts\TCPManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -79,10 +79,12 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Asset\Ultimate Animated Character Pack - Nov 2019\License.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -703,6 +705,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
