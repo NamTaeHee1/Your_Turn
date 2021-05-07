@@ -8831,7 +8831,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 1
-  RotateSpeed: 10
+  RotateSpeed: 15
+  CannonBall: {fileID: 5538101773138249313, guid: 6d53685defa5e6b4a829830a5325570f, type: 3}
+  ShootPosition: {fileID: 4059347140881494817}
+  GunPosition: {fileID: 2900334564232170412}
 --- !u!95 &1938303739937476237
 Animator:
   serializedVersion: 3

@@ -8,6 +8,7 @@ public class TankMovement : MonoBehaviour
     Animator TankAnimator;
     [SerializeField] private float MoveSpeed = 2.0f;
     [SerializeField] private float RotateSpeed = 10.0f;
+    [SerializeField] private GameObject CannonBall, ShootPosition, GunPosition;
     private float h, v;
 
     void Start() 
@@ -22,6 +23,7 @@ public class TankMovement : MonoBehaviour
         TankMove();
         TankRotate();
         TankAnimationControl();
+        TankShooting();
     }
 
      void GetAxis()
@@ -37,12 +39,20 @@ public class TankMovement : MonoBehaviour
 
     void TankRotate()
     {
-        TankTransform.Rotate(Vector3.up * h* RotateSpeed * Time.deltaTime);
+        TankTransform.Rotate(Vector3.up * (v == -1 ? -h : h)* RotateSpeed * Time.deltaTime);
     }
 
     void TankAnimationControl()
     {
         TankAnimator.SetInteger("v", (int)v);
         TankAnimator.SetInteger("h", (int)h);
+    }
+
+    void TankShooting()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            Instantiate(CannonBall, ShootPosition.transform.position, Quaternion.Euler(0, 90, 0));
+        }
     }
 }
