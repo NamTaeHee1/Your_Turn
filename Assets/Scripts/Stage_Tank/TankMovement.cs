@@ -10,6 +10,8 @@ public class TankMovement : MonoBehaviour
     [SerializeField] private float RotateSpeed = 10.0f;
     [SerializeField] private GameObject CannonBall, ShootPosition, GunPosition;
     private float h, v;
+    bool isOnePersonView = false;
+    [SerializeField] private GameObject ThreePersonView, OnePersonView;
 
     void Start() 
     { 
@@ -24,6 +26,7 @@ public class TankMovement : MonoBehaviour
         TankRotate();
         TankAnimationControl();
         TankShooting();
+        ChangePointOfView();
     }
 
      void GetAxis()
@@ -42,6 +45,29 @@ public class TankMovement : MonoBehaviour
         TankTransform.Rotate(Vector3.up * (v == -1 ? -h : h)* RotateSpeed * Time.deltaTime);
     }
 
+    void SeeOnePersonView()
+    {
+        Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, OnePersonView.transform.position, Time.deltaTime * 2);
+        Camera.main.transform.rotation = OnePersonView.transform.rotation;
+    }
+
+    void SeeThreePersonView()
+    {
+        Camera.main.transform.position = ThreePersonView.transform.position;
+        Camera.main.transform.rotation = ThreePersonView.transform.rotation;
+    }
+
+    void ChangePointOfView()
+    {
+        if (Input.GetMouseButtonDown(1))
+            isOnePersonView = !isOnePersonView;
+
+        if (isOnePersonView)
+            SeeOnePersonView();
+        else
+            SeeThreePersonView();
+    }
+
     void TankAnimationControl()
     {
         TankAnimator.SetInteger("v", (int)v);
@@ -52,7 +78,7 @@ public class TankMovement : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Instantiate(CannonBall, ShootPosition.transform.position, Quaternion.Euler(0, 90, 0));
+            Instantiate(CannonBall, OnePersonView.transform.position, Quaternion.Euler(0, 90, 0));
         }
     }
 }
