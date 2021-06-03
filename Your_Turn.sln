@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Demos", "PhotonUnityNetworking.Demos.csproj", "{63531A28-D742-D3B4-36F5-42F81191E706}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities", "PhotonUnityNetworking.Utilities.csproj", "{A28D0B4B-8EA9-AF84-B056-7FDBF6121F5F}"
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonChat", "PhotonChat.csproj", "{9EA11407-61AE-FF10-193D-BA2370771083}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonWebSocket", "PhotonWebSocket.csproj", "{DC43F609-5614-AD83-D0AB-D7EA5B5B044C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{C9D4216E-2294-82E0-5094-5585A07C1A14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Editor", "PhotonUnityNetworking.Editor.csproj", "{98C82258-FFF6-0845-1789-11D01694331E}"
 EndProject
@@ -61,6 +63,10 @@ Global
 		{DC43F609-5614-AD83-D0AB-D7EA5B5B044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC43F609-5614-AD83-D0AB-D7EA5B5B044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC43F609-5614-AD83-D0AB-D7EA5B5B044C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D4216E-2294-82E0-5094-5585A07C1A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D4216E-2294-82E0-5094-5585A07C1A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D4216E-2294-82E0-5094-5585A07C1A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D4216E-2294-82E0-5094-5585A07C1A14}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98C82258-FFF6-0845-1789-11D01694331E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98C82258-FFF6-0845-1789-11D01694331E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98C82258-FFF6-0845-1789-11D01694331E}.Release|Any CPU.ActiveCfg = Release|Any CPU
