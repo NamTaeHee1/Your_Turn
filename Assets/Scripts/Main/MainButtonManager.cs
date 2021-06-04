@@ -14,7 +14,7 @@ public class MainButtonManager : MonoBehaviour
 
     }
 
-    public void CharacterClick()
+    public void ClickCharacter()
     {
 
     }
