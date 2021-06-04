@@ -8,4 +8,9 @@ public class MainButtonManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void AddRoom()
+    {
+
+    }
 }
