@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class MainButtonManager : MonoBehaviour
 {
-    public void QuitButtonClick()
+    public void ClickQuitButton()
     {
         Application.Quit();
     }
 
     public void AddRoom()
+    {
+
+    }
+
+    public void CharacterClick()
     {
 
     }
