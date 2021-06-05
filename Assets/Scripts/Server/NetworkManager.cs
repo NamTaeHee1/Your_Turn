@@ -5,7 +5,12 @@ using Photon.Pun;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
+    public bool isConnected = false;
     void Awake() => PhotonNetwork.ConnectUsingSettings();
 
-    void Update() => Debug.Log(PhotonNetwork.NetworkClientState.ToString());
+    private void Update()
+    {
+        if (PhotonNetwork.NetworkClientState.ToString().Equals("ConnectedToMasterServer"))
+            isConnected = true;
+    }
 }
