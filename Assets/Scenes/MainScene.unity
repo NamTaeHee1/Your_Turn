@@ -11323,7 +11323,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7401133106398995510, guid: 63440663faa05e948b9e547cfb552034, type: 3}
       propertyPath: m_Name
-      value: Player_1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7401133106398995514, guid: 63440663faa05e948b9e547cfb552034, type: 3}
       propertyPath: m_UseGravity
