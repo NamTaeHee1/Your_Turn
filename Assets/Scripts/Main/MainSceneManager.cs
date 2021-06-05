@@ -28,12 +28,15 @@ public class MainSceneManager : MonoBehaviour
 
     IEnumerator LoadingAnimation()
     {
-        string Loading = "로딩중.";
-        for(int i = 0; i < 3; i++)
+        while (true)
         {
-            LoadingText.text = Loading;
-            Loading += '.';
-            yield return new WaitForSeconds(0.5f);
+            string Loading = "로딩중.";
+            for (int i = 0; i < 3; i++)
+            {
+                LoadingText.text = Loading;
+                Loading += '.';
+                yield return new WaitForSeconds(0.5f);
+            }
         }
     }
 }
