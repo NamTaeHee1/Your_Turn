@@ -80,7 +80,6 @@
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Scripts\Runtime\SimpleScrollSnap.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Scripts\Stage_Tank\TankMovement.cs" />
-    <Compile Include="Assets\Scripts\WPF_To_Unity\GetNickName.cs" />
     <Compile Include="Assets\Scripts\Player\NickNameControl.cs" />
     <Compile Include="Assets\Scripts\Main\MainSceneManager.cs" />
   </ItemGroup>
