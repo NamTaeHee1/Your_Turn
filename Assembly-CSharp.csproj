@@ -58,12 +58,12 @@
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Scripts\Main\MainButtonManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 3 (Slot Machine)\Scripts\SlotMachine.cs" />
-    <Compile Include="Assets\Scripts\WPF_To_Unity\PlayerNickNameControl.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 6 (3D Shape Selection)\Scripts\Rotator.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileSelected.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
@@ -73,7 +73,6 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Shared Resources\Scripts\ExpandInformation.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\Scripts\WPF_To_Unity\TCPManager.cs" />
     <Compile Include="Assets\Scripts\Stage_Tank\CannonBallMovement.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 5 (Dynamic Content)\Scripts\DynamicContentController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
@@ -81,7 +80,8 @@
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Scripts\Runtime\SimpleScrollSnap.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Scripts\Stage_Tank\TankMovement.cs" />
-    <Compile Include="Assets\Scripts\Main\MainButtonManager.cs" />
+    <Compile Include="Assets\Scripts\WPF_To_Unity\GetNickName.cs" />
+    <Compile Include="Assets\Scripts\Player\NickNameControl.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
