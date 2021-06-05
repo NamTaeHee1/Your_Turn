@@ -5,5 +5,7 @@ using Photon.Pun;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    void Start() => PhotonNetwork.ConnectUsingSettings();
+    void Awake() => PhotonNetwork.ConnectUsingSettings();
+
+    void Update() => Debug.Log(PhotonNetwork.NetworkClientState.ToString());
 }
