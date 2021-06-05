@@ -4423,6 +4423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4f3d6b392e76064a9d77e8f63819114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isConnected: 0
 --- !u!1 &584843274
 GameObject:
   m_ObjectHideFlags: 0
@@ -12282,7 +12283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea756bc6aae7db4e8195c9bae6d94d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadingPanel: {fileID: 1300369365}
   PlayerNickNameText: {fileID: 301394328}
+  LoadingText: {fileID: 1931524122}
 --- !u!4 &1622319866
 Transform:
   m_ObjectHideFlags: 0
