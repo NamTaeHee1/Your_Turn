@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Stage_Tank\TankMovement.cs" />
     <Compile Include="Assets\Scripts\WPF_To_Unity\GetNickName.cs" />
     <Compile Include="Assets\Scripts\Player\NickNameControl.cs" />
+    <Compile Include="Assets\Scripts\Main\MainSceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

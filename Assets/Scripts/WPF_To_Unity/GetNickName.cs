@@ -9,7 +9,7 @@ public class GetNickName : MonoBehaviour
 
     void Start()
     {
-        
+        NickNameControl.NickName = File.ReadAllText(NickNameFilePath);
     }
 
 }
