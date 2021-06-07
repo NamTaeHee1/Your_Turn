@@ -36,4 +36,21 @@ public class RoomListManager : MonoBehaviourPunCallbacks
             CellButton[i].transform.GetChild(2).GetComponent<Text>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
         }
     }
+
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        int roomCount = roomList.Count;
+        for (int i = 0; i < roomCount; i++)
+        {
+            if (!roomList[i].RemovedFromList)
+            {
+                if (!MyList.Contains(roomList[i]))
+                    MyList.Add(roomList[i]);
+                else
+                    MyList[MyList.IndexOf(roomList[i])] = roomList[i];
+            }
+            else if (MyList.IndexOf(roomList[i]) != -1)
+                MyList.RemoveAt(MyList.IndexOf(roomList[i]));
+        }
+    }
 }
