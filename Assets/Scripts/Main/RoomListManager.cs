@@ -22,6 +22,10 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         MyListRenewal();
     }
 
+
+    public void CreateRoom() => PhotonNetwork.CreateRoom("TEST", new RoomOptions { MaxPlayers = 2 });
+
+
     void MyListRenewal()
     {
         MaxPage = (MyList.Count % CellButton.Length == 0) ? MyList.Count / CellButton.Length : MyList.Count / CellButton.Length + 1;
