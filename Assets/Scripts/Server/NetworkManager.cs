@@ -15,5 +15,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
             isConnected = true;
     }
 
+    public override void OnConnectedToMaster()
+    {
+        Debug.Log("Connected");
+    }
 
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        
+    }
 }
