@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class RoomListManager : MonoBehaviourPunCallbacks
 {
-    List<RoomInfo> MyList = new List<RoomInfo>();
+    public List<RoomInfo> MyList = new List<RoomInfo>();
     public Button[] CellButton;
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
@@ -19,6 +19,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         else if (num == -1)
             ++CurrentPage;
         else PhotonNetwork.JoinRoom(MyList[Multiple + num].Name);
+        MyListRenewal();
     }
 
     void MyListRenewal()
@@ -37,20 +38,21 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         }
     }
 
-    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    public override void OnRoomListUpdate(List<RoomInfo> RoomList)
     {
-        int roomCount = roomList.Count;
+        int roomCount = RoomList.Count;
         for (int i = 0; i < roomCount; i++)
         {
-            if (!roomList[i].RemovedFromList)
+            if (!RoomList[i].RemovedFromList)
             {
-                if (!MyList.Contains(roomList[i]))
-                    MyList.Add(roomList[i]);
+                if (!MyList.Contains(RoomList[i]))
+                    MyList.Add(RoomList[i]);
                 else
-                    MyList[MyList.IndexOf(roomList[i])] = roomList[i];
+                    MyList[MyList.IndexOf(RoomList[i])] = RoomList[i];
             }
-            else if (MyList.IndexOf(roomList[i]) != -1)
-                MyList.RemoveAt(MyList.IndexOf(roomList[i]));
+            else if (MyList.IndexOf(RoomList[i]) != -1)
+                MyList.RemoveAt(MyList.IndexOf(RoomList[i]));
         }
+        MyListRenewal();
     }
 }

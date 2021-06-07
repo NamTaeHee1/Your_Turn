@@ -1,11 +1,13 @@
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class MainSceneManager : MonoBehaviour
+public class MainSceneManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] GameObject LoadingPanel;
 
@@ -19,11 +21,16 @@ public class MainSceneManager : MonoBehaviour
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
         NickNameControl.NickName = PlayerNickNameText.text;
         StartCoroutine(LoadingAnimation());
+        PhotonNetwork.ConnectUsingSettings();
     }
 
-    private void Update()
+    public override void OnConnectedToMaster() => PhotonNetwork.JoinLobby();
+
+    public override void OnJoinedLobby()
     {
-        LoadingPanel.SetActive(!FindObjectOfType<NetworkManager>().isConnected);
+        LoadingPanel.SetActive(false);
+        PhotonNetwork.NickName = PlayerNickNameText.text;
+        FindObjectOfType<RoomListManager>().MyList.Clear();
     }
 
     IEnumerator LoadingAnimation()

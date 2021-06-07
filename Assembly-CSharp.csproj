@@ -68,7 +68,6 @@
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileSelected.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Scripts\Main\MainSceneManager.cs" />
-    <Compile Include="Assets\Scripts\Server\NetworkManager.cs" />
     <Compile Include="Assets\Scripts\TeamSelect\TeamSelectPlayerControl.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Scripts\Player\NickNameControl.cs" />
