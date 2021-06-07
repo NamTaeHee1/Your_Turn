@@ -9,15 +9,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public bool isConnected = false;
     void Awake() => PhotonNetwork.ConnectUsingSettings();
 
-    private void Update()
-    {
-        if (PhotonNetwork.NetworkClientState.ToString().Equals("ConnectedToMasterServer"))
-            isConnected = true;
-    }
-
     public override void OnConnectedToMaster()
     {
-        Debug.Log("Connected");
+        PhotonNetwork.JoinLobby();
+    }
+
+    public override void OnJoinedLobby()
+    {
+        isConnected = true;
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
