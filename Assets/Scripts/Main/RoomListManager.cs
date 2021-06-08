@@ -23,6 +23,11 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         LoadingPanel.SetActive(false);
     }
 
+    private void Update()
+    {
+        Debug.Log("¹æ °³¼ö : " + PhotonNetwork.CountOfRooms);
+    }
+
     public void MyListClick(int num)
     {
         if (num == -2)

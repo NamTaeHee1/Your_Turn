@@ -7,9 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class MainSceneManager : MonoBehaviourPunCallbacks
+public class MainSceneManager : MonoBehaviour
 {
-    [SerializeField] GameObject LoadingPanel;
 
     [SerializeField] TextMeshProUGUI PlayerNickNameText;
 
