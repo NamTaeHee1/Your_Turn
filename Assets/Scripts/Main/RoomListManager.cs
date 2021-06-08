@@ -12,6 +12,15 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
 
+    void Awake() => PhotonNetwork.ConnectUsingSettings();
+
+    public override void OnConnectedToMaster() => PhotonNetwork.JoinLobby();
+
+    public override void OnJoinedLobby()
+    {
+        FindObjectOfType<RoomListManager>().MyList.Clear();
+    }
+
     public void MyListClick(int num)
     {
         if (num == -2)
@@ -25,7 +34,6 @@ public class RoomListManager : MonoBehaviourPunCallbacks
 
     public void CreateRoom() => PhotonNetwork.CreateRoom("TEST", new RoomOptions { MaxPlayers = 2 });
 
-
     void MyListRenewal()
     {
         MaxPage = (MyList.Count % CellButton.Length == 0) ? MyList.Count / CellButton.Length : MyList.Count / CellButton.Length + 1;
@@ -36,7 +44,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         Multiple = (CurrentPage - 1) * CellButton.Length;
         for(int i = 0; i < CellButton.Length; i++)
         {
-            CellButton[i].interactable = (Multiple + i < MyList.Count) ? false : true;
+            CellButton[i].transform.GetChild(0).gameObject.SetActive((Multiple + i < MyList.Count) ? false : true);
             CellButton[i].transform.GetChild(1).GetComponent<Text>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
             CellButton[i].transform.GetChild(2).GetComponent<Text>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
         }
