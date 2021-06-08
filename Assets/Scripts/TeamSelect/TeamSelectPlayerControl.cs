@@ -27,8 +27,8 @@ public class TeamSelectPlayerControl : MonoBehaviour
 
     void GetAxis()
     {
-        PlayerX = Input.GetAxis("Horizontal");
-        PlayerZ = Input.GetAxis("Vertical");
+        PlayerX = Input.GetAxisRaw("Horizontal");
+        PlayerZ = Input.GetAxisRaw("Vertical");
     }
 
     void PlayerMove()
