@@ -6,7 +6,7 @@ using TMPro;
 public class MainButtonManager : MonoBehaviour
 { 
     [SerializeField] GameObject AddRoomPanel, HidePanel;
-    [SerializeField] TextMeshProUGUI TitleInputText, PersonInputText;
+    [SerializeField] TMP_InputField TitleInputText, PersonInputText;
     public void ClickQuitButton()
     {
         Application.Quit();
@@ -24,7 +24,7 @@ public class MainButtonManager : MonoBehaviour
     {
         if (TitleInputText.text != "" && PersonInputText.text != "")
         {
-            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, int.Parse(PersonInputText.text));
+            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, PersonInputText.text);
             AddRoomPanel.SetActive(false);
             HidePanel.SetActive(false);
         }
