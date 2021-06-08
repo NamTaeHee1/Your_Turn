@@ -14,8 +14,6 @@ public class MainSceneManager : MonoBehaviour
 
     [SerializeField] Text LoadingText;
 
-    [SerializeField] GameObject AddRoomPanel;
-
     string NickNameFilePath = @"D:\github\Your_Turn_Client\FileStream\NickName.txt";
     private void Awake()
     {

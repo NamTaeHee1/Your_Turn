@@ -40,7 +40,10 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     }
 
 
-    public void CreateRoom() => PhotonNetwork.CreateRoom("TEST", new RoomOptions { MaxPlayers = 2 });
+    public void CreateRoom(string RoomTitle, int PersonNumber)
+    {
+        PhotonNetwork.CreateRoom(RoomTitle, new RoomOptions { MaxPlayers = (byte)PersonNumber });
+    }
 
     void MyListRenewal()
     {

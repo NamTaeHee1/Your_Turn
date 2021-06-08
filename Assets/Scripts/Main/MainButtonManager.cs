@@ -22,12 +22,18 @@ public class MainButtonManager : MonoBehaviour
 
     public void ClickAddRoomYes()
     {
-
+        if (TitleInputText.text != "" && PersonInputText.text != "")
+        {
+            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, int.Parse(PersonInputText.text));
+            AddRoomPanel.SetActive(false);
+            HidePanel.SetActive(false);
+        }
     }
 
     public void ClickAddRoomNo()
     {
-
+        AddRoomPanel.SetActive(false);
+        HidePanel.SetActive(false);
     }
 
     public void ClickCharacter()
