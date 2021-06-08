@@ -25,6 +25,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
 
     private void Update()
     {
+        Debug.Log("연결상태 : " + PhotonNetwork.NetworkClientState.ToString());
         Debug.Log("방 개수 : " + PhotonNetwork.CountOfRooms);
     }
 

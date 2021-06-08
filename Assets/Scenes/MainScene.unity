@@ -1042,7 +1042,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2660,7 +2660,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3924,7 +3924,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4320,8 +4320,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1845828018}
-        m_TargetAssemblyTypeName: Photon.Pun.MonoBehaviourPunCallbacks, PhotonUnityNetworking
-        m_MethodName: OnCreatedRoom
+        m_TargetAssemblyTypeName: RoomListManager, Assembly-CSharp
+        m_MethodName: CreateRoom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5043,7 +5043,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6732,7 +6732,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8113,7 +8113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea756bc6aae7db4e8195c9bae6d94d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadingPanel: {fileID: 1300369365}
   PlayerNickNameText: {fileID: 301394328}
   LoadingText: {fileID: 1931524122}
 --- !u!4 &1622319866
@@ -9274,6 +9273,7 @@ MonoBehaviour:
   - {fileID: 1179434376}
   PreviousButton: {fileID: 1753447194}
   NextButton: {fileID: 1895083695}
+  LoadingPanel: {fileID: 1300369365}
 --- !u!114 &1845828019
 MonoBehaviour:
   m_ObjectHideFlags: 0
