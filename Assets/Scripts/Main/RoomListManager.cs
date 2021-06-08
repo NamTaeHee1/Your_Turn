@@ -52,7 +52,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         Multiple = (CurrentPage - 1) * CellButton.Length;
         for(int i = 0; i < CellButton.Length; i++)
         {
-            CellButton[i].transform.GetChild(0).gameObject.SetActive((Multiple + i < MyList.Count) ? false : true);
+            CellButton[i].transform.GetChild(0).gameObject.SetActive((Multiple + i < MyList.Count) ? true : false);
             CellButton[i].transform.GetChild(1).GetComponent<Text>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
             CellButton[i].transform.GetChild(2).GetComponent<Text>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
         }
