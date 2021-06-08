@@ -21,17 +21,8 @@ public class MainSceneManager : MonoBehaviourPunCallbacks
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
         NickNameControl.NickName = PlayerNickNameText.text;
         StartCoroutine(LoadingAnimation());
-        PhotonNetwork.ConnectUsingSettings();
     }
 
-    public override void OnConnectedToMaster() => PhotonNetwork.JoinLobby();
-
-    public override void OnJoinedLobby()
-    {
-        LoadingPanel.SetActive(false);
-        PhotonNetwork.NickName = PlayerNickNameText.text;
-        FindObjectOfType<RoomListManager>().MyList.Clear();
-    }
 
     IEnumerator LoadingAnimation()
     {

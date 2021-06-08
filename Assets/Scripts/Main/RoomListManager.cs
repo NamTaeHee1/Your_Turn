@@ -11,6 +11,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public Button[] CellButton;
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
+    [SerializeField] GameObject LoadingPanel;
 
     void Awake() => PhotonNetwork.ConnectUsingSettings();
 
@@ -19,6 +20,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         FindObjectOfType<RoomListManager>().MyList.Clear();
+        LoadingPanel.SetActive(false);
     }
 
     public void MyListClick(int num)
