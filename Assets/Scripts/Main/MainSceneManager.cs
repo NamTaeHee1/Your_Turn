@@ -17,7 +17,7 @@ public class MainSceneManager : MonoBehaviour
     string NickNameFilePath = @"D:\github\Your_Turn_Client\FileStream\NickName.txt";
     private void Awake()
     {
-        Screen.SetResolution(1920, 1080, false);
+        Screen.SetResolution(960, 540, false);
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
         NickNameControl.NickName = PlayerNickNameText.text;
         StartCoroutine(LoadingAnimation());
