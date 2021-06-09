@@ -10,7 +10,7 @@ using TMPro;
 public class MainSceneManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI PlayerNickNameText, LoadingText;
-    [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel;
+    [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel, Player;
     [SerializeField] TMP_InputField TitleInputText, PersonInputText;
 
 
@@ -42,8 +42,10 @@ public class MainSceneManager : MonoBehaviour
             Application.Quit();
         else
         {
+            PhotonNetwork.LeaveRoom();
             RoomPanel.SetActive(false);
             MainPanel.SetActive(true);
+            Player.SetActive(true);
         }    
     }
 
@@ -61,6 +63,7 @@ public class MainSceneManager : MonoBehaviour
         {
             FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, PersonInputText.text);
             AddRoomPanel.SetActive(false);
+            Player.SetActive(false);
             HidePanel.SetActive(false);
         }
     }

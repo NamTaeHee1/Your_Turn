@@ -13,6 +13,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
     [SerializeField] GameObject LoadingPanel, MainPanel, RoomPanel;
+    [SerializeField] Text PeopleCountText;
 
     void Awake() => PhotonNetwork.ConnectUsingSettings();
 
@@ -28,6 +29,10 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("연결상태 : " + PhotonNetwork.NetworkClientState.ToString());
         Debug.Log("방 개수 : " + PhotonNetwork.CountOfRooms);
+        if (PhotonNetwork.InRoom)
+        {
+            PeopleCountText.text = PhotonNetwork.CurrentRoom.PlayerCount.ToString();
+        }
     }
 
     public void MyListClick(int num)
