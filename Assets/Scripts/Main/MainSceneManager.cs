@@ -9,11 +9,10 @@ using TMPro;
 
 public class MainSceneManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI PlayerNickNameText;
+    [SerializeField] TextMeshProUGUI PlayerNickNameText, LoadingText;
     [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel;
     [SerializeField] TMP_InputField TitleInputText, PersonInputText;
 
-    [SerializeField] Text LoadingText;
 
     string NickNameFilePath = @"D:\github\Your_Turn_Client\FileStream\NickName.txt";
     private void Awake()
@@ -37,9 +36,15 @@ public class MainSceneManager : MonoBehaviour
         }
     }
 
-    public void ClickMainQuitButton()
+    public void ClickMainQuitButton(string Panel)
     {
-        Application.Quit();
+        if (Panel.Equals("Main"))
+            Application.Quit();
+        else
+        {
+            RoomPanel.SetActive(false);
+            MainPanel.SetActive(true);
+        }    
     }
 
     public void ClickAddRoom()
