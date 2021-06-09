@@ -5,7 +5,7 @@ using TMPro;
 
 public class MainButtonManager : MonoBehaviour
 { 
-    [SerializeField] GameObject AddRoomPanel, HidePanel;
+    [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel;
     [SerializeField] TMP_InputField TitleInputText, PersonInputText;
     public void ClickQuitButton()
     {
@@ -34,10 +34,5 @@ public class MainButtonManager : MonoBehaviour
     {
         AddRoomPanel.SetActive(false);
         HidePanel.SetActive(false);
-    }
-
-    public void ClickCharacter()
-    {
-
     }
 }

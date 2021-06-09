@@ -19,7 +19,6 @@ public class MainSceneManager : MonoBehaviour
     {
         Screen.SetResolution(960, 540, false);
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
-        NickNameControl.NickName = PlayerNickNameText.text;
         StartCoroutine(LoadingAnimation());
     }
 
