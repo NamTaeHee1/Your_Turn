@@ -9,8 +9,9 @@ using TMPro;
 
 public class MainSceneManager : MonoBehaviour
 {
-
     [SerializeField] TextMeshProUGUI PlayerNickNameText;
+    [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel;
+    [SerializeField] TMP_InputField TitleInputText, PersonInputText;
 
     [SerializeField] Text LoadingText;
 
@@ -21,7 +22,6 @@ public class MainSceneManager : MonoBehaviour
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
         StartCoroutine(LoadingAnimation());
     }
-
 
     IEnumerator LoadingAnimation()
     {
@@ -35,5 +35,34 @@ public class MainSceneManager : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
             }
         }
+    }
+
+    public void ClickMainQuitButton()
+    {
+        Application.Quit();
+    }
+
+    public void ClickAddRoom()
+    {
+        AddRoomPanel.SetActive(true);
+        HidePanel.SetActive(true);
+        TitleInputText.text = "";
+        PersonInputText.text = "";
+    }
+
+    public void ClickAddRoomYes()
+    {
+        if (TitleInputText.text != "" && PersonInputText.text != "")
+        {
+            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, PersonInputText.text);
+            AddRoomPanel.SetActive(false);
+            HidePanel.SetActive(false);
+        }
+    }
+
+    public void ClickAddRoomNo()
+    {
+        AddRoomPanel.SetActive(false);
+        HidePanel.SetActive(false);
     }
 }
