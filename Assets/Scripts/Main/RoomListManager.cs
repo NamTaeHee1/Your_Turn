@@ -12,7 +12,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public Button[] CellButton;
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
-    [SerializeField] GameObject LoadingPanel;
+    [SerializeField] GameObject LoadingPanel, MainPanel, RoomPanel;
 
     void Awake() => PhotonNetwork.ConnectUsingSettings();
 
@@ -44,6 +44,12 @@ public class RoomListManager : MonoBehaviourPunCallbacks
     public void CreateRoom(string RoomTitle, string PersonNumber)
     {
         PhotonNetwork.CreateRoom(RoomTitle, new RoomOptions { MaxPlayers = byte.Parse(PersonNumber) });
+    }
+
+    public override void OnJoinedRoom()
+    {
+        RoomPanel.SetActive(true);
+        MainPanel.SetActive(false);
     }
 
     void MyListRenewal()
