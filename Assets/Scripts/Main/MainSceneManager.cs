@@ -36,7 +36,7 @@ public class MainSceneManager : MonoBehaviour
         }
     }
 
-    public void ClickMainQuitButton(string Panel)
+    public void ClickQuitButton(string Panel)
     {
         if (Panel.Equals("Main"))
             Application.Quit();
