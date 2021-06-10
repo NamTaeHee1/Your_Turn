@@ -48,9 +48,9 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         MyListRenewal();
     }
 
-    public void CreateRoom(string RoomTitle, string PersonNumber)
+    public void CreateRoom(string RoomTitle, int PersonNumber)
     {
-        PhotonNetwork.CreateRoom(RoomTitle, new RoomOptions { MaxPlayers = byte.Parse(PersonNumber) });
+        PhotonNetwork.CreateRoom(RoomTitle, new RoomOptions { MaxPlayers = byte.Parse((PersonNumber * 2).ToString()) });
     }
 
     public override void OnJoinedRoom()
@@ -73,7 +73,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
             CellButtonImage[i].SetActive((Multiple + i < MyList.Count) ? true : false);
             CellButton[i].interactable = (Multiple + i < MyList.Count) ? true : false;
             CellButton[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
-            CellButton[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
+            CellButton[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers).ToString()) : "";
         }
     }
 

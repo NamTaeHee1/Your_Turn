@@ -7,7 +7,7 @@ using Photon.Realtime;
 
 public class ChatingManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private TextMeshProUGUI ChatInput;
+    [SerializeField] private TMP_InputField ChatInput;
     [SerializeField] private TextMeshProUGUI[] ChatText;
     [SerializeField] private PhotonView PV;
 

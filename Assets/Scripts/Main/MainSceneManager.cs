@@ -60,9 +60,10 @@ public class MainSceneManager : MonoBehaviourPunCallbacks
 
     public void ClickAddRoomYes()
     {
-        if (TitleInputText.text != "" && PersonInputText.text != "")
+        if (TitleInputText.text != "" && PersonInputText.text != "" && int.Parse(PersonInputText.text) % 2 != 1)
         {
-            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, PersonInputText.text);
+            int PersonInput = int.Parse(PersonInputText.text);
+            FindObjectOfType<RoomListManager>().CreateRoom(TitleInputText.text, PersonInput);
             AddRoomPanel.SetActive(false);
             Player.SetActive(false);
             HidePanel.SetActive(false);
