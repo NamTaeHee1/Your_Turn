@@ -49,7 +49,7 @@ public class ChatingManager : MonoBehaviourPunCallbacks
         }
         if (!isInput)
         {
-            for (int i = 0; i < ChatText.Length; i++)
+            for (int i = 1; i < ChatText.Length; i++)
                 ChatText[i - 1].text = ChatText[i].text;
             ChatText[ChatText.Length - 1].text = Message;
         }
