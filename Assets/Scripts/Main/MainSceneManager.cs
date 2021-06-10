@@ -7,18 +7,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class MainSceneManager : MonoBehaviour
+public class MainSceneManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] TextMeshProUGUI PlayerNickNameText, LoadingText;
     [SerializeField] GameObject AddRoomPanel, HidePanel, MainPanel, RoomPanel, Player;
     [SerializeField] TMP_InputField TitleInputText, PersonInputText;
 
-
     string NickNameFilePath = @"D:\github\Your_Turn_Client\FileStream\NickName.txt";
+
     private void Awake()
     {
         Screen.SetResolution(960, 540, false);
         PlayerNickNameText.text = File.ReadAllText(NickNameFilePath);
+        PhotonNetwork.NickName = PlayerNickNameText.text;
         StartCoroutine(LoadingAnimation());
     }
 
