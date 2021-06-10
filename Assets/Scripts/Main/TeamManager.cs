@@ -25,7 +25,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     {
         Panel.transform.GetChild(0).gameObject.SetActive(true);
         Panel.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
-        Panel.transform.GetChild(2).gameObject.SetActive(true);
+        Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "¡ÿ∫Ò¡ﬂ";
     }
 
     void DisabledPanel(GameObject Panel)
