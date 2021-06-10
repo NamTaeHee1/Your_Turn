@@ -21349,7 +21349,7 @@ Transform:
   - {fileID: 1513597828}
   - {fileID: 654919149}
   m_Father: {fileID: 1845828017}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1728187006
 GameObject:
@@ -22380,8 +22380,8 @@ Transform:
   m_Children:
   - {fileID: 112946602}
   - {fileID: 2070221680}
-  - {fileID: 2000259423}
   - {fileID: 1723434972}
+  - {fileID: 2000259423}
   m_Father: {fileID: 641742962}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24516,8 +24516,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 325539908}
         m_TargetAssemblyTypeName: RoomListManager, Assembly-CSharp
-        m_MethodName: MyListClick
-        m_Mode: 3
+        m_MethodName: ClickBtn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -24826,7 +24826,7 @@ RectTransform:
   - {fileID: 513727972}
   - {fileID: 1571522522}
   m_Father: {fileID: 1845828017}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
