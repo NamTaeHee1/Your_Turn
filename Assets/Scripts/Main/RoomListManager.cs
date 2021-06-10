@@ -76,8 +76,8 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         for(int i = 0; i < CellButton.Length; i++)
         {
             CellButtonImage[i].SetActive((Multiple + i < MyList.Count) ? true : false);
-            CellButton[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
-            CellButton[i].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
+            CellButton[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
+            CellButton[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
         }
     }
 
