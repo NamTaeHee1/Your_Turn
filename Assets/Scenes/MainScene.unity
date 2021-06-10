@@ -15296,7 +15296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1300369366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24516,8 +24516,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 325539908}
         m_TargetAssemblyTypeName: RoomListManager, Assembly-CSharp
-        m_MethodName: ClickBtn
-        m_Mode: 1
+        m_MethodName: MyListClick
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

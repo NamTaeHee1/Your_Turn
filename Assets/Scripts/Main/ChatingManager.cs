@@ -21,6 +21,7 @@ public class ChatingManager : MonoBehaviourPunCallbacks
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         ChatRPC("<color=yellow>" + newPlayer.NickName + "´ÔÀÌ Âü°¡ÇÏ¼Ì½À´Ï´Ù</color>");
+        ChatInput.text = "";
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
