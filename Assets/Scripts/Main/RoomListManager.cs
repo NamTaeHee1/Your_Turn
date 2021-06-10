@@ -11,6 +11,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
 {
     public List<RoomInfo> MyList = new List<RoomInfo>();
     public Button[] CellButton;
+    public GameObject[] CellButtonImage;
     public Button PreviousButton, NextButton;
     int CurrentPage = 1, MaxPage, Multiple;
     [SerializeField] GameObject LoadingPanel, MainPanel, RoomPanel;
@@ -74,7 +75,7 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         Multiple = (CurrentPage - 1) * CellButton.Length;
         for(int i = 0; i < CellButton.Length; i++)
         {
-            CellButton[i].transform.GetChild(0).gameObject.SetActive((Multiple + i < MyList.Count) ? true : false);
+            CellButtonImage[i].SetActive((Multiple + i < MyList.Count) ? true : false);
             CellButton[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? MyList[Multiple + i].Name : "";
             CellButton[i].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = (Multiple + i < MyList.Count) ? string.Format("ÆÀ´ç {0}¸í", (MyList[Multiple + i].MaxPlayers / 2).ToString()) : "";
         }
