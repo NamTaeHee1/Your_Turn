@@ -4,6 +4,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class RoomListManager : MonoBehaviourPunCallbacks
@@ -42,7 +43,13 @@ public class RoomListManager : MonoBehaviourPunCallbacks
         else if (num == -1)
             ++CurrentPage;
         else PhotonNetwork.JoinRoom(MyList[Multiple + num].Name);
+        Debug.Log(EventSystem.current.currentSelectedGameObject.name);
         MyListRenewal();
+    }
+
+    public void ClickBtn()
+    {
+        Debug.Log("클릭이 왜 안되냐");
     }
 
 
