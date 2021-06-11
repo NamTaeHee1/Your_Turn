@@ -6,6 +6,7 @@ using Photon.Pun;
 
 public class TeamManager : MonoBehaviourPunCallbacks
 {
+    GameObject CurrentPlayerTeamPanel;
     [SerializeField] GameObject[] RedTeamList;
     int RedTeamPlayerCount = 0;
     [SerializeField] GameObject[] BlueTeamList;
@@ -13,12 +14,14 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        ActivationPanel(RedTeamList[RedTeamPlayerCount++]);
+        if (RedTeamPlayerCount >= RedTeamList.Length)
+            ActivationPanel(BlueTeamList[BlueTeamPlayerCount++]);
+        else ActivationPanel(RedTeamList[RedTeamPlayerCount++]);
     }
 
     public override void OnLeftRoom()
     {
-
+        
     }
 
     void ActivationPanel(GameObject Panel)
