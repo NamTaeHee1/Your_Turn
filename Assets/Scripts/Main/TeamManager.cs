@@ -21,7 +21,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom()
     {
-        
+        DisabledPanel(CurrentPlayerTeamPanel);
     }
 
     void ActivationPanel(GameObject Panel)
