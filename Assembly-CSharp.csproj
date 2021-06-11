@@ -64,6 +64,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 3 (Slot Machine)\Scripts\SlotMachine.cs" />
+    <Compile Include="Assets\Scripts\Main\TeamManager.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 6 (3D Shape Selection)\Scripts\Rotator.cs" />
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileSelected.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Asset\Simple Scroll-Snap\Scripts\Runtime\SimpleScrollSnap.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Scripts\Stage_Tank\TankMovement.cs" />
-    <Compile Include="Assets\Scripts\Main\TeamManager.cs" />
+    <Compile Include="Assets\Scripts\Main\TeamPanelInfo.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

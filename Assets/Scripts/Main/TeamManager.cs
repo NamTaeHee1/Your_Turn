@@ -34,7 +34,9 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     void DisabledPanel(GameObject Panel)
     {
-
+        Panel.transform.GetChild(0).gameObject.SetActive(false);
+        Panel.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
+        Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "";
     }
 
     void TeamListRenewal()
