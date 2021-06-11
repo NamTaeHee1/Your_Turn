@@ -26,8 +26,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     void ActivationPanel(GameObject Panel)
     {
-        for (int i = 0; i < 3; i++)
-            Panel.transform.GetChild(i).gameObject.SetActive(true);
+        Panel.transform.GetChild(0).gameObject.SetActive(true);
         Panel.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
         Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "¡ÿ∫Ò¡ﬂ";
         CurrentPlayerTeamPanel = Panel;
