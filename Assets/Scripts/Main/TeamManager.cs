@@ -38,7 +38,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             RedTeamList[RedTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
             RedTeamList[RedTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "¡ÿ∫Ò¡ﬂ";
             CurrentPlayerTeamPanel = RedTeamList[RedTeamPlayerCount];
-            PV.RPC("TeamRenewal", RpcTarget.All, "True");
+            PV.RPC("TeamRenewal", RpcTarget.All, true);
         }
     }
 
