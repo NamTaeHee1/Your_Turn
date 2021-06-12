@@ -6,6 +6,7 @@ using Photon.Pun;
 
 public class TeamManager : MonoBehaviourPunCallbacks
 {
+    [SerializeField] PhotonView PV;
     GameObject CurrentPlayerTeamPanel;
     [SerializeField] GameObject[] RedTeamList;
     int RedTeamPlayerCount = 0;
@@ -15,15 +16,16 @@ public class TeamManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         if (RedTeamPlayerCount >= RedTeamList.Length)
-            ActivationPanel(BlueTeamList[BlueTeamPlayerCount++]);
-        else ActivationPanel(RedTeamList[RedTeamPlayerCount++]);
+            PV.RPC("ActivationPanel", RpcTarget.All, BlueTeamList[BlueTeamPlayerCount++]);
+        else PV.RPC("ActivationPanel", RpcTarget.All, RedTeamList[RedTeamPlayerCount++]);
     }
 
     public override void OnLeftRoom()
     {
-        DisabledPanel(CurrentPlayerTeamPanel);
+        PV.RPC("DisabledPanel", RpcTarget.All, CurrentPlayerTeamPanel);
     }
 
+    [PunRPC]
     void ActivationPanel(GameObject Panel)
     {
         Panel.transform.GetChild(0).gameObject.SetActive(true);
@@ -32,6 +34,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
         CurrentPlayerTeamPanel = Panel;
     }
 
+    [PunRPC]
     void DisabledPanel(GameObject Panel)
     {
         Panel.transform.GetChild(0).gameObject.SetActive(false);
