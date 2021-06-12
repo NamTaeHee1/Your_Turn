@@ -31,6 +31,13 @@ public class TeamManager : MonoBehaviourPunCallbacks
             BlueTeamList[BlueTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
             CurrentPlayerTeamPanel = BlueTeamList[BlueTeamPlayerCount];
         }
+        else
+        {
+            RedTeamList[RedTeamPlayerCount].transform.GetChild(0).gameObject.SetActive(true);
+            RedTeamList[RedTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
+            RedTeamList[RedTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
+            CurrentPlayerTeamPanel = RedTeamList[RedTeamPlayerCount];
+        }
     }
 
     void DisabledPanel(GameObject Panel)
