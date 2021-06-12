@@ -18,6 +18,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if (RedTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
                 continue;
             ActivationPanel(RedTeamList[i]);
+            CurrentPlayerTeamPanel = RedTeamList[i];
             return;
         }
         for(int i = 0; i < BlueTeamList.Length; i++)
@@ -25,6 +26,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if (BlueTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
                 continue;
             ActivationPanel(BlueTeamList[i]);
+            CurrentPlayerTeamPanel = BlueTeamList[i];
             return;
         }
     }
