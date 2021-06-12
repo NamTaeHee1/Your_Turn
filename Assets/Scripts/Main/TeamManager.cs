@@ -40,5 +40,9 @@ public class TeamManager : MonoBehaviourPunCallbacks
         Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "";
     }
 
+    [PunRPC]
+    void TeamRenewal()
+    {
 
+    }
 }
