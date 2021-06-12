@@ -9,13 +9,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [SerializeField] PhotonView PV;
     GameObject CurrentPlayerTeamPanel;
     [SerializeField] GameObject[] RedTeamList;
-    int RedTeamPlayerCount = 0;
     [SerializeField] GameObject[] BlueTeamList;
-    int BlueTeamPlayerCount = 0;
 
     public override void OnJoinedRoom()
     {
-        ActivationPanel();
+        //ActivationPanel();
     }
 
     public override void OnLeftRoom()
@@ -23,23 +21,9 @@ public class TeamManager : MonoBehaviourPunCallbacks
         DisabledPanel(CurrentPlayerTeamPanel);
     }
 
-    void ActivationPanel()
+    void ActivationPanel(GameObject Panel)
     {
-        if (RedTeamPlayerCount >= RedTeamList.Length) {
-            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(0).gameObject.SetActive(true);
-            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
-            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
-            CurrentPlayerTeamPanel = BlueTeamList[BlueTeamPlayerCount];
-            PV.RPC("TeamRenewal", RpcTarget.All, "False");
-        }
-        else
-        {
-            RedTeamList[RedTeamPlayerCount].transform.GetChild(0).gameObject.SetActive(true);
-            RedTeamList[RedTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
-            RedTeamList[RedTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
-            CurrentPlayerTeamPanel = RedTeamList[RedTeamPlayerCount];
-            PV.RPC("TeamRenewal", RpcTarget.All, true);
-        }
+        Panel.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     void DisabledPanel(GameObject Panel)
@@ -49,12 +33,4 @@ public class TeamManager : MonoBehaviourPunCallbacks
         Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "";
     }
 
-    [PunRPC]
-    void TeamRenewal(bool isRed)
-    {
-        if (isRed)
-            RedTeamPlayerCount++;
-        else
-            BlueTeamPlayerCount++;
-    }
 }
