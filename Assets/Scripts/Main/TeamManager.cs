@@ -53,7 +53,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     }*/
 
     [PunRPC]
-    void TeamListRenewal(int num)
+    void TeamListRenewal(ref int num)
     {
         num++;
     }
