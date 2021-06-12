@@ -52,6 +52,9 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal(bool isRed)
     {
-        
+        if (isRed)
+            RedTeamPlayerCount++;
+        else
+            BlueTeamPlayerCount++;
     }
 }
