@@ -15,9 +15,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        if (RedTeamPlayerCount >= RedTeamList.Length)
-            ActivationPanel(BlueTeamList[BlueTeamPlayerCount++]);
-        else ActivationPanel(RedTeamList[RedTeamPlayerCount++]);
+        ActivationPanel();
     }
 
     public override void OnLeftRoom()
@@ -25,12 +23,14 @@ public class TeamManager : MonoBehaviourPunCallbacks
         DisabledPanel(CurrentPlayerTeamPanel);
     }
 
-    void ActivationPanel(GameObject Panel)
+    void ActivationPanel()
     {
-        Panel.transform.GetChild(0).gameObject.SetActive(true);
-        Panel.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
-        Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
-        CurrentPlayerTeamPanel = Panel;
+        if (RedTeamPlayerCount >= RedTeamList.Length) {
+            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(0).gameObject.SetActive(true);
+            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
+            BlueTeamList[BlueTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
+            CurrentPlayerTeamPanel = BlueTeamList[BlueTeamPlayerCount];
+        }
     }
 
     void DisabledPanel(GameObject Panel)
@@ -43,6 +43,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-
+        
     }
 }
