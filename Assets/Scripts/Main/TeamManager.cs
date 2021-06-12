@@ -30,6 +30,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             BlueTeamList[BlueTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
             BlueTeamList[BlueTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
             CurrentPlayerTeamPanel = BlueTeamList[BlueTeamPlayerCount];
+            PV.RPC("TeamRenewal", RpcTarget.All, "false");
         }
         else
         {
@@ -37,6 +38,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             RedTeamList[RedTeamPlayerCount].transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
             RedTeamList[RedTeamPlayerCount].transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "준비중";
             CurrentPlayerTeamPanel = RedTeamList[RedTeamPlayerCount];
+            PV.RPC("TeamRenewal", RpcTarget.All, "true");
         }
     }
 
@@ -48,7 +50,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    void TeamRenewal()
+    void TeamRenewal(bool isRed)
     {
         
     }
