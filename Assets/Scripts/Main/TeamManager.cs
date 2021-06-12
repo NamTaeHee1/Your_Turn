@@ -13,7 +13,20 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        //ActivationPanel();
+        for(int i = 0; i < RedTeamList.Length; i++)
+        {
+            if (RedTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
+                continue;
+            ActivationPanel(RedTeamList[i]);
+            return;
+        }
+        for(int i = 0; i < BlueTeamList.Length; i++)
+        {
+            if (BlueTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
+                continue;
+            ActivationPanel(BlueTeamList[i]);
+            return;
+        }
     }
 
     public override void OnLeftRoom()
@@ -24,6 +37,8 @@ public class TeamManager : MonoBehaviourPunCallbacks
     void ActivationPanel(GameObject Panel)
     {
         Panel.transform.GetChild(0).gameObject.SetActive(true);
+        Panel.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.NickName;
+        Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "¡ÿ∫Ò¡ﬂ";
     }
 
     void DisabledPanel(GameObject Panel)
