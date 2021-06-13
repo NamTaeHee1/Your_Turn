@@ -21,7 +21,8 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     private void Update()
     {
-        
+        for (int i = 0; i < RedTeamNickNameList.Count; i++)
+            Debug.Log(RedTeamNickNameList[i] + " ");
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
