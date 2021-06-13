@@ -8,11 +8,8 @@ using Photon.Realtime;
 public class TeamManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] PhotonView PV;
-    GameObject CurrentPlayerTeamPanel;
     [SerializeField] GameObject[] RedTeamList;
     [SerializeField] GameObject[] BlueTeamList;
-    int RedTeamListCount = 0;
-    int BlueTeamListCount = 0;
 
     public override void OnJoinedRoom()
     {
