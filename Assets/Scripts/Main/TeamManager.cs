@@ -17,7 +17,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
     {
         RedTeamNickNameList.Clear();
         BlueTeamNickNameList.Clear();
-        RedTeamNickNameList.Add(PhotonNetwork.NickName);
     }
 
     private void Update()
@@ -48,6 +47,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-
+        RedTeamNickNameList.Add(PhotonNetwork.NickName);
     }
 }
