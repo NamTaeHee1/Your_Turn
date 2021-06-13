@@ -19,6 +19,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
         BlueTeamNickNameList.Clear();
     }
 
+    private void Update()
+    {
+        
+    }
+
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
 
