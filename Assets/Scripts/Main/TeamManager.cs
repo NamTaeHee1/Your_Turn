@@ -16,6 +16,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         RedTeamNickNameList.Clear();
+        BlueTeamNickNameList.Clear();
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
