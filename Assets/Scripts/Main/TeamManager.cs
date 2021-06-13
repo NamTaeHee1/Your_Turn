@@ -10,6 +10,8 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [SerializeField] PhotonView PV;
     [SerializeField] GameObject[] RedTeamList;
     [SerializeField] GameObject[] BlueTeamList;
+    List<string> RedTeamNickNameList;
+    List<string> BlueTeamNickNameList;
 
     public override void OnJoinedRoom()
     {
