@@ -21,7 +21,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        base.OnPlayerEnteredRoom(newPlayer);
+
     }
 
     [PunRPC]
