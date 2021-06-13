@@ -42,21 +42,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-        for (int i = 0; i < RedTeamList.Length; i++)
-        {
-            if (RedTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
-                continue;
-            ActivationPanel(RedTeamList[i]);
-            CurrentPlayerTeamPanel = RedTeamList[i];
-            return;
-        }
-        for (int i = 0; i < BlueTeamList.Length; i++)
-        {
-            if (BlueTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
-                continue;
-            ActivationPanel(BlueTeamList[i]);
-            CurrentPlayerTeamPanel = BlueTeamList[i];
-            return;
-        }
+
     }
 }
