@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Photon.Pun;
+using Photon.Realtime;
 
 public class TeamManager : MonoBehaviourPunCallbacks
 {
@@ -15,27 +16,12 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        for(int i = 0; i < RedTeamList.Length; i++)
-        {
-            if (RedTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
-                continue;
-            ActivationPanel(RedTeamList[i]);
-            CurrentPlayerTeamPanel = RedTeamList[i];
-            return;
-        }
-        for(int i = 0; i < BlueTeamList.Length; i++)
-        {
-            if (BlueTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
-                continue;
-            ActivationPanel(BlueTeamList[i]);
-            CurrentPlayerTeamPanel = BlueTeamList[i];
-            return;
-        }
+        PV.RPC("TeamRenewal", RpcTarget.All);
     }
 
-    public override void OnLeftRoom()
+    public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        DisabledPanel(CurrentPlayerTeamPanel);
+        base.OnPlayerEnteredRoom(newPlayer);
     }
 
     void ActivationPanel(GameObject Panel)
@@ -52,4 +38,24 @@ public class TeamManager : MonoBehaviourPunCallbacks
         Panel.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "";
     }
 
+    [PunRPC]
+    void TeamRenewal()
+    {
+        for (int i = 0; i < RedTeamList.Length; i++)
+        {
+            if (RedTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
+                continue;
+            ActivationPanel(RedTeamList[i]);
+            CurrentPlayerTeamPanel = RedTeamList[i];
+            return;
+        }
+        for (int i = 0; i < BlueTeamList.Length; i++)
+        {
+            if (BlueTeamList[i].transform.GetChild(0).gameObject.activeInHierarchy)
+                continue;
+            ActivationPanel(BlueTeamList[i]);
+            CurrentPlayerTeamPanel = BlueTeamList[i];
+            return;
+        }
+    }
 }
