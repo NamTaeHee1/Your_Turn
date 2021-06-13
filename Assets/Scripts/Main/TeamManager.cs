@@ -24,6 +24,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
         base.OnPlayerEnteredRoom(newPlayer);
     }
 
+    [PunRPC]
     void ActivationPanel(GameObject Panel)
     {
         Panel.transform.GetChild(0).gameObject.SetActive(true);
