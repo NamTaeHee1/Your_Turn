@@ -17,6 +17,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     {
         RedTeamNickNameList.Clear();
         BlueTeamNickNameList.Clear();
+        PV.RPC("TeamRenewal", RpcTarget.All, PhotonNetwork.NickName);
     }
 
     private void Update()
