@@ -10,6 +10,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     GameObject CurrentPlayerTeamPanel;
     [SerializeField] GameObject[] RedTeamList;
     [SerializeField] GameObject[] BlueTeamList;
+    int RedTeamListCount = 0;
 
     public override void OnJoinedRoom()
     {
