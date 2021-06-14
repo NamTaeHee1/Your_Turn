@@ -15,7 +15,7 @@ public class TeamManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public override void OnJoinedRoom()
     {
-        TeamRenewal();
+        PV.RPC("TeamRenewal", RpcTarget.All);
     }
 
     private void Update()
@@ -45,15 +45,14 @@ public class TeamManager : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     void TeamRenewal()
     {
-        for(int i = 1; i <= PhotonNetwork.CountOfPlayersInRooms; i++)
+        RedTeamNickNameList.Add(PhotonNetwork.NickName);
+        for (int i = 0; i < RedTeamNickNameList.Count; i++)
             RedTeamList[i].transform.GetChild(0).gameObject.SetActive(true);
-        /*        RedTeamNickNameList.Add(PhotonNetwork.NickName);
-                for (int i = 0; i < RedTeamNickNameList.Count; i++)
-                    Debug.Log(RedTeamNickNameList[i] + " ");*/
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        throw new System.NotImplementedException();
+        if (stream.IsWriting) stream.SendNext(RedTeamNickNameList);
+        else RedTeamNickNameList = (List<string>)stream.ReceiveNext();
     }
 }
