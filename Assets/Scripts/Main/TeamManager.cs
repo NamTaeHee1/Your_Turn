@@ -9,4 +9,9 @@ public class TeamManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] PhotonView PV;
     [SerializeField] TextMeshProUGUI[] PlayerList;
+
+    void AddInPlayerList()
+    {
+
+    }
 }
