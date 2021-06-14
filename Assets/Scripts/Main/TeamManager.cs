@@ -12,12 +12,18 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PV.RPC("AddInPlayerList", RpcTarget.All);
+        PV.RPC("AddInPlayerList", RpcTarget.All, PhotonNetwork.NickName);
     }
 
     [PunRPC]
-    void AddInPlayerList()
+    void AddInPlayerList(string NickName)
     {
-
+        for(int i = 0; i < PlayerList.Length; i++)
+        {
+            if(PlayerList[i].text == "")
+            {
+                PlayerList[i].text = NickName;
+            }
+        }
     }
 }
