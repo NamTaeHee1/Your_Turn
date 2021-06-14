@@ -37,6 +37,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+        TeamRenewal();
+    }
+
     public void ClickReadyOrStartButton()
     {
         if (PhotonNetwork.IsMasterClient)
@@ -51,8 +56,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
         for(int i = 0; i < PlayerList.Length; i++)
         {
             if (PlayerList[i].text == PhotonNetwork.NickName)
+            {
                 PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = isReady ? "준비중" : "준비완료";
-            PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(isReady ? 255 : 70, isReady ? 70 : 255, 255, 255);
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = isReady ? Color.red : Color.green;
+                break;
+            }
         }
     }
 
