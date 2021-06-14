@@ -10,6 +10,12 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [SerializeField] PhotonView PV;
     [SerializeField] TextMeshProUGUI[] PlayerList;
 
+    public override void OnJoinedRoom()
+    {
+        PV.RPC("AddInPlayerList", RpcTarget.All);
+    }
+
+    [PunRPC]
     void AddInPlayerList()
     {
 
