@@ -31,7 +31,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if(PlayerList[i].text == "")
             {
                 PlayerList[i].text = NickName;
-                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.IsMasterClient ? "" : "준비중";
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.PlayerList[i].IsMasterClient ? "" : "준비중";
                 break;
             }
         }
@@ -44,7 +44,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if (PhotonNetwork.PlayerList[i].NickName == "")
                 break;
             PlayerList[i].text = PhotonNetwork.PlayerList[i].NickName;
-            PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.IsMasterClient ? "" : "준비중";
+            PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.PlayerList[i].IsMasterClient ? "" : "준비중";
         }
     }
 }
