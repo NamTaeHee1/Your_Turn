@@ -15,7 +15,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        
+        PV.RPC("TeamRenewal", RpcTarget.AllBuffered);
     }
 
     private void Update()
@@ -45,7 +45,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-        RedTeamList[0].transform.GetChild(PhotonNetwork.CountOfPlayersInRooms).gameObject.SetActive(true);
+        RedTeamList[PhotonNetwork.CountOfPlayersInRooms].transform.GetChild(0).gameObject.SetActive(true);
 /*        RedTeamNickNameList.Add(PhotonNetwork.NickName);
         for (int i = 0; i < RedTeamNickNameList.Count; i++)
             Debug.Log(RedTeamNickNameList[i] + " ");*/
