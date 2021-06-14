@@ -4058,6 +4058,8 @@ MonoBehaviour:
   - {fileID: 2012012781}
   - {fileID: 1074410179}
   - {fileID: 1461663714}
+  ReadyOrStartButton: {fileID: 1722426833}
+  ReadyOrStartButtonText: {fileID: 1630488800}
 --- !u!1 &354330786
 GameObject:
   m_ObjectHideFlags: 0
