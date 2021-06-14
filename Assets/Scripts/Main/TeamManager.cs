@@ -5,7 +5,7 @@ using TMPro;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class TeamManager : MonoBehaviourPunCallbacks
+public class TeamManager : MonoBehaviourPunCallbacks, IPunObservable
 {
     [SerializeField] PhotonView PV;
     [SerializeField] GameObject[] RedTeamList;
@@ -15,7 +15,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PV.RPC("TeamRenewal", RpcTarget.AllBuffered);
+        TeamRenewal();
     }
 
     private void Update()
@@ -25,7 +25,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        PV.RPC("TeamRenewal", RpcTarget.All);
+        TeamRenewal();
     }
 
     void ActivationPanel(GameObject Panel)
@@ -45,9 +45,15 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-        RedTeamList[PhotonNetwork.CountOfPlayersInRooms].transform.GetChild(0).gameObject.SetActive(true);
-/*        RedTeamNickNameList.Add(PhotonNetwork.NickName);
-        for (int i = 0; i < RedTeamNickNameList.Count; i++)
-            Debug.Log(RedTeamNickNameList[i] + " ");*/
+        for(int i = 1; i <= PhotonNetwork.CountOfPlayersInRooms; i++)
+            RedTeamList[i].transform.GetChild(0).gameObject.SetActive(true);
+        /*        RedTeamNickNameList.Add(PhotonNetwork.NickName);
+                for (int i = 0; i < RedTeamNickNameList.Count; i++)
+                    Debug.Log(RedTeamNickNameList[i] + " ");*/
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        throw new System.NotImplementedException();
     }
 }
