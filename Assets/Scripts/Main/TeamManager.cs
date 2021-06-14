@@ -47,7 +47,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
         if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.LoadLevel("GameScene");
         else
-            PV.RPC("CheckReadyButton", RpcTarget.All, ReadyOrStartButtonText.text == "준비완료" ? true : false);
+        {
+            ReadyOrStartButtonText.text = isReady ? "대기" : "준비";
+            isReady = !isReady;
+            PV.RPC("CheckReadyButton", RpcTarget.All, ReadyOrStartButtonText.text == "준비" ? true : false);
+        }
     }
 
     [PunRPC]
@@ -57,8 +61,8 @@ public class TeamManager : MonoBehaviourPunCallbacks
         {
             if (PlayerList[i].text == PhotonNetwork.NickName)
             {
-                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = isReady ? "준비중" : "준비완료";
-                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = isReady ? Color.red : Color.green;
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = isReady ? "준비완료" : "준비중";
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = isReady ? Color.green : Color.red;
                 break;
             }
         }
