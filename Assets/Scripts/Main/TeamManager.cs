@@ -37,6 +37,20 @@ public class TeamManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public void CheckReadyOrStartButton()
+    {
+        if (PhotonNetwork.IsMasterClient)
+            PhotonNetwork.LoadLevel("GameScene");
+        else
+            PV.RPC("CheckReadyButton", RpcTarget.All);
+    }
+
+    [PunRPC]
+    void CheckReadyButton()
+    {
+
+    }
+
     void TeamRenewal()
     {
         for (int i = 0; i < PhotonNetwork.CountOfPlayersInRooms; i++)
