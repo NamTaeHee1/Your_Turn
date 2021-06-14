@@ -15,6 +15,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
         PV.RPC("AddInPlayerList", RpcTarget.All, PhotonNetwork.NickName);
     }
 
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        PV.RPC("TeamRenewal", RpcTarget.All);
+    }
+
     [PunRPC]
     void AddInPlayerList(string NickName)
     {
@@ -23,7 +28,15 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if(PlayerList[i].text == "")
             {
                 PlayerList[i].text = NickName;
+                break;
             }
         }
+    }
+
+    [PunRPC]
+    void TeamRenewal()
+    {
+        for (int i = 0; i < PlayerList.Length; i++)
+            PlayerList[i].text = PhotonNetwork.PlayerList[i].NickName;
     }
 }
