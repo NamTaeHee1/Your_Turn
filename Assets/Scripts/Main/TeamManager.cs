@@ -46,13 +46,16 @@ public class TeamManager : MonoBehaviourPunCallbacks, IPunObservable
     void TeamRenewal()
     {
         RedTeamNickNameList.Add(PhotonNetwork.NickName);
-        for (int i = 0; i < RedTeamNickNameList.Count; i++)
-            RedTeamList[i].transform.GetChild(0).gameObject.SetActive(true);
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if (stream.IsWriting) stream.SendNext(RedTeamNickNameList);
-        else RedTeamNickNameList = (List<string>)stream.ReceiveNext();
+        else
+        {
+            RedTeamNickNameList = (List<string>)stream.ReceiveNext();
+            for (int i = 0; i < RedTeamNickNameList.Count; i++)
+                RedTeamList[i].transform.GetChild(0).gameObject.SetActive(true);
+        }
     }
 }
