@@ -12,6 +12,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [SerializeField] TextMeshProUGUI[] PlayerList;
     [SerializeField] Button ReadyOrStartButton;
     [SerializeField] TextMeshProUGUI ReadyOrStartButtonText;
+    public bool isReady = false;
 
     public override void OnJoinedRoom()
     {
@@ -30,6 +31,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if(PlayerList[i].text == "")
             {
                 PlayerList[i].text = NickName;
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.IsMasterClient ? "" : "준비중";
                 break;
             }
         }
@@ -42,6 +44,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             if (PhotonNetwork.PlayerList[i].NickName == "")
                 break;
             PlayerList[i].text = PhotonNetwork.PlayerList[i].NickName;
+            PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PhotonNetwork.IsMasterClient ? "" : "준비중";
         }
     }
 }
