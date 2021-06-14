@@ -12,12 +12,15 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
+        for (int i = 0; i < PlayerList.Length; i++)
+            PlayerList[i].text = "";
         PV.RPC("AddInPlayerList", RpcTarget.All, PhotonNetwork.NickName);
+        TeamRenewal();
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        PV.RPC("TeamRenewal", RpcTarget.All);
+
     }
 
     [PunRPC]
@@ -36,7 +39,11 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void TeamRenewal()
     {
-        for (int i = 0; i < PlayerList.Length; i++)
+        for (int i = 0; i < PhotonNetwork.CountOfPlayersInRooms; i++)
+        {
+            if (PhotonNetwork.PlayerList[i].NickName == "")
+                break;
             PlayerList[i].text = PhotonNetwork.PlayerList[i].NickName;
+        }
     }
 }
