@@ -20,12 +20,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
         PV.RPC("TeamRenewal", RpcTarget.All, PhotonNetwork.NickName);
     }
 
-    private void Update()
-    {
-        for (int i = 0; i < RedTeamNickNameList.Count; i++)
-            Debug.Log(RedTeamNickNameList[i] + " ");
-    }
-
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
 
@@ -49,5 +43,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
     void TeamRenewal()
     {
         RedTeamNickNameList.Add(PhotonNetwork.NickName);
+        for (int i = 0; i < RedTeamNickNameList.Count; i++)
+            Debug.Log(RedTeamNickNameList[i] + " ");
     }
 }
