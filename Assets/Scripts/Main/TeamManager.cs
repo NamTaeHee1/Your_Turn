@@ -10,12 +10,17 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [SerializeField] PhotonView PV;
     [SerializeField] GameObject[] RedTeamList;
     [SerializeField] GameObject[] BlueTeamList;
-    List<string> RedTeamNickNameList;
-    List<string> BlueTeamNickNameList;
+    List<string> RedTeamNickNameList = new List<string>();
+    List<string> BlueTeamNickNameList = new List<string>();
 
     public override void OnJoinedRoom()
     {
-        PV.RPC("TeamRenewal", RpcTarget.All, PhotonNetwork.NickName);
+        PV.RPC("TeamRenewal", RpcTarget.All);
+    }
+
+    private void Update()
+    {
+        Debug.Log(PhotonNetwork.NickName);
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
