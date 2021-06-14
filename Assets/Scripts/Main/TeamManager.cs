@@ -37,7 +37,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
         }
     }
 
-    public void CheckReadyOrStartButton()
+    public void ClickReadyOrStartButton()
     {
         if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.LoadLevel("GameScene");
@@ -48,7 +48,12 @@ public class TeamManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void CheckReadyButton()
     {
-
+        for(int i = 0; i < PlayerList.Length; i++)
+        {
+            if (PlayerList[i].text == PhotonNetwork.NickName)
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "준비완료";
+                PlayerList[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "준비완료";
+        }
     }
 
     void TeamRenewal()
