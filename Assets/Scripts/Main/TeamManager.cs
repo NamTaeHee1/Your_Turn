@@ -15,8 +15,6 @@ public class TeamManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        RedTeamNickNameList.Clear();
-        BlueTeamNickNameList.Clear();
         PV.RPC("TeamRenewal", RpcTarget.All, PhotonNetwork.NickName);
     }
 
