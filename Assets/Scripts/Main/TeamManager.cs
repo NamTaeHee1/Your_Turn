@@ -48,7 +48,7 @@ public class TeamManager : MonoBehaviourPunCallbacks
             PhotonNetwork.LoadLevel("GameScene");
         else
         {
-            ReadyOrStartButtonText.text = isReady ? "대기" : "준비";
+            ReadyOrStartButtonText.text = isReady ? "준비" : "대기";
             isReady = !isReady;
             PV.RPC("CheckReadyButton", RpcTarget.All, ReadyOrStartButtonText.text == "준비" ? true : false);
         }
